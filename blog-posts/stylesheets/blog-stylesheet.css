@@ -1,0 +1,130 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; /* Adam Schwarz Recommendo*/
+  -moz-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+/*GENERAL*/
+
+body {
+  margin: 20px;
+}
+div {
+  background-color: #EBE0CC;
+  border: 1px solid #1F0F00;
+}
+
+/*HEADER*/
+.header {
+  display: block;
+  width: 100%;
+}
+.header img {
+  width: 100%;
+}
+/*BUTTONS*/
+table {
+  display: block;
+  min-height: 10px;
+  border-spacing: 30px 5px;
+  font-family: Arial;
+  font-size: 15px;
+}
+td a {
+  text-decoration: none;
+  color: #5C2E00;
+}
+.logos {
+  /* width: 2em;*/
+  /* vertical-align: top;*/
+  /* margin-top: -12px;*/
+}
+td img {
+ height: 12px;
+ padding-left: 10px;
+}
+
+/*BLOG*/
+.blog {
+  display: block;
+  width: 80%;
+  float: left;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Arial;
+  padding: 15px;
+  min-height: 300px;
+  color: #5C2E00;
+
+}
+.blog img {
+  display: block;
+}
+#date,
+#cat {
+  display: inline-block;
+  color: #666633;
+  text-decoration: none;
+  font-size: 12px;
+}
+#date {
+  clear: both;
+  float: left;
+}
+#meat {
+  clear: both;
+  display: block;
+}
+.body {
+  border-bottom: 1px dotted black;
+}
+textarea {
+  width: 100%;
+  font-size: 12px;
+}
+.name {
+  height: 25px;
+
+}
+.commentbox {
+  height: 75px;
+}
+.comments {
+  margin-top: 25px;
+}
+
+/*RECENT*/
+.recent {
+  display: inline-block;
+  width: 18%;
+  padding: 15px;
+  float: right;
+  border: 2px solid black;
+  font-family: Arial;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #5C2E00;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li a {
+  text-decoration: none;
+  color: #666633;
+}
+
+/*FOOTER*/
+.footer {
+  clear: both;
+  width: 100%;
+  margin-bottom: 50px;
+
+}
+.footer img {
+  width: 100%;
+}
+
+
+
