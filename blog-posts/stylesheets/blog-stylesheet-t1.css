@@ -53,7 +53,7 @@ td img {
   margin-top: 20px;
   margin-bottom: 20px;
   font-family: Arial;
-  padding: 15px;
+  padding: 5%;
   min-height: 300px;
   color: #5C2E00;
 
@@ -66,7 +66,7 @@ h1 {
   color: #666633;
   text-decoration: none;
   font-size: 12px;
-  text-align: top;
+  margin-left: -30px;
 }
 #meat {
   clear: both;
@@ -89,6 +89,18 @@ textarea {
 .comments {
   margin-top: 25px;
 }
+#resc  {
+  width: 75%;
+  margin-left: 10%;
+  border: 1px solid gray;
+  box-shadow: 10px 10px 5px gray;
+}
+#asan {
+  width: 50%;
+  margin-left: 25%;
+  border: 1px solid gray;
+  box-shadow: 10px 10px 5px gray;
+}
 
 /*RECENT*/
 .recent {
@@ -102,13 +114,11 @@ textarea {
   text-decoration: none;
   color: #5C2E00;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li a {
+
+.new a {
   text-decoration: none;
   color: #666633;
+  padding: 0;
 }
 
 /*FOOTER*/
