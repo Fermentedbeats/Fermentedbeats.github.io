@@ -1,70 +1,83 @@
 [Week 2 Home](../)
 
-#U1.W2: GPS 1.1: Your First Pairing Session! 
-
-**DO NOT LOOK AT THIS CHALLENGE UNTIL YOUR FIRST GUIDED PAIRING SESSION!!**
+# U1.W2: Responsive Web Design - Pairing Challenge!
 
 ## Learning Competencies
-  - Use HTML tags to place content on a website
-  - Apply CSS to position elements on an HTML page
-  - Compare different HTML tags to one another
-  - Examine pair-programming concepts
+- Describe responsive design
+- Determine good and bad practices in responsive design
+- Convert a small site to responsive design
+- Compare responsive design and fluid layouts
+
 
 ## Summary
-  Welcome to your first Guided Pairing Session (GPS!)
-  We are excited to have you in Phase 0 and to work with
-  you to get you prepared for an exciting time at DBC. 
 
-  This GPS is designed to help you examine pair programming and the roles of driver and 
-  navigator. Your goal is to design and build a single-page website that
-  introduces the concept of pair programming!
-  
-  **Since this is your first pairing session, it is important
-  to have a good check-in (so don't forget!).**
+It is almost impossible to ignore responsive design in today's web development scene. It is a very popular buzzword and for good reason. With the mobile and tablet market rising and more people accessing the web via mobile devices, according to the [Pew survey on cell phone access and usage](http://www.pewinternet.org/fact-sheets/mobile-technology-fact-sheet/), it is important that your website be usable on screens of all sizes.
 
-## Release 0: Wireframe the site
-Discuss how you want the page to look. Draw a wireframe or use a wireframing tool with your pair. It doesn't have to be perfect, but get a rough idea of how you want the site to look. 
-
-If you want to use a collaborative drawing site, you can use [flockdraw](http://flockdraw.com). You don't need an account, and you can invite people by sharing the URL. You can also use any other wireframing tool and share your screen. (Or use a pen and paper and share)
-
-You'll need sections for:
-- Title
-- Your names
-- What is pair programming?
-- Why is pair programming important to DBC?
-- Compare Driver and Navigator
-- Anything else you want!
-
-## Release 1: HTML
-
-Open a stypi file (only one person needs to do this) and name it with a `.html` extension (You will be able to see it in stypi by either hovering or clicking on the "eye" in the top right of the navigation bar). Share the URL with your pair and guide. 
-
-Based on your wireframe, add a skeleton for each section. 
-
-Be sure to include a link to the phase-0-unit-1/week-2/8-gps1.1/gps.1.1.css stylesheet in your html! It won't work now, but you will be thankful later when you are copying and pasting the html and css into the separate files. 
+The key to this is something call media queries, which allow you to change CSS styles based on screen width and height, color, aspect ratios an many others [MDN media queries resource](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries).
 
 
-## Release 2: Discuss Pair Programming
-Discuss the following topics, and add content for each section in the skeleton. Time-box this section to about 10 minutes or so.
+## Release 0: Research
 
-- What is pair programming?
-- Why is pair programming important to DBC?
-- Compare Driver and Navigator
+Let's get a good foundation by looking at some good resources available about responsive and fluid design:
 
-## Release 3: Dress it up! 
-Use CSS to make it look nice. Include pictures, outside fonts, etc. You will need to add CSS inside the `<style>` tags because stypi won't accept an actual link to an external stylesheet. This isn't good practice though. Why do you think it's not good practice?
+- [Beginners guide to responsive web design](http://blog.teamtreehouse.com/beginners-guide-to-responsive-web-design) - Team Treehouse has a great series about building a responsive website if you want to start a subscription with them.
+- [UXer asks the difference between fluid and responsive design](http://ux.stackexchange.com/questions/24406/what-is-the-exact-difference-between-fluid-and-responsive-design)
+- [Fluid layout project](http://www.creativebloq.com/css3/create-fluid-layouts-html5-and-css3-3142768)
+- [Liquidapsive](http://liquidapsive.com/) allows you to switch what kind of layout format you would like to use. Liquid, Adaptive, Respnosive or Static. It is a great integration of all you have read so far.
+- [Chrome mobile emulation](https://developer.chrome.com/devtools/docs/mobile-emulation) Chrome allows you to change the user agent so you can see what the website looks like with different devices.
 
-## Release 4: Reflect 
-What was it like to pair for the first time? Did you enjoy it? What worked? What didn't work? Add your reflection to your page and style it as well. 
+## Release 1: Apply
 
-## Release 5: Copy, commit, and push
-When you are finished, copy your code into the [gps1.1.css](gps1.1.css) and [gps1.1.html](gps1.1.html) files. Make sure your css from the `<style>` section is in the CSS file and remove it from the HTML section. Update the html file. Then, test that everything is still  working by saving them 
-and running them together from your computer. 
+Now that we have a good base in theory, lets put it to use in converting this sample static webpage to a more modern web friendly format.
 
-Commit and push your changes onto the phase-0-unit-1 repository. 
+Open the starting-point.html in your browser and see what it looks like. Resize the screen and see how it looks when you go to different screen resolutions. If you open your chrome dev tools when you do this, you can see the pixel dimensions as you resize. Notice where things start to fall apart
 
-## Release 6: Publish
-Using the terminal, practice copying the html and css sheets into a new folder in your [USERNAME]github.io site. Commit and push your changes to your github.io site. Double check that everything is displaying properly. Then add a link on the index of your site to make sure people can find it!
+## Release 2: Responsify with your pair
 
-## Release 7: Give Feedback
-Don't forget to give [feedback](https://socrates.devbootcamp.com/feedback/new) to your pair!
+With such a multitude of devices with different screen sizes, it is important to create a web layout that is not tied to a certian screen resolution.
+
+Think about how you want the website to look from a desktop monitor, a cell phone, and a tablet. Resize your screen to mimic those sizes and see where the layout falls apart. Then you can use media queries to target these pixel dimensions.
+
+If you are using chrome, you can open the Chrome Dev Tools and start resizing the browser window. This will display the pixel dimensions in the top right of the screen.
+
+Here is a checklist to get you started:
+
+  - change static pixel dimensions to percentages
+  - move navigation links (Home, Profile, Stuff, Pictures) from side bar to top bar under header
+  - Optimize Picture width for smaller screen sizes. We should be able to see the whole picture and not scroll
+  - make the text centered and with good spacing on either side to facilitate reading on the mobile screen
+  - Make the title HEADER fit smaller screens
+
+This is my example!
+
+Desktop size:
+
+![desktop](http://i.imgur.com/ICS4jYi.png)
+
+Mobile:
+
+![mobile](http://i.imgur.com/78f8fF3.png)
+
+
+
+Here is a comprehensive resource on media queries: [MDN docs on media queries](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries)
+
+Here is a website that compiles examples of great usage of media queries: [mediaqueri.es](http://mediaqueri.es/)
+
+Here is a more practical guide: [alistapart on media queries](http://alistapart.com/article/responsive-web-design) It is old but there is still a lot of good info there.
+
+## Release 3: Reflect (individually)
+Reflect on your learning in the "reflection" div on your site. This section should be completed on your own, but you should style it with your pair.
+
+## Release 4: Commit and push your changes
+This site should be initially kept in your phase-0-unit-1 repository, but we also want you to make it live on your github.io site.
+
+## Release 5: Publish
+Using the terminal, practice copying the html and css sheets into a new folder in your [USERNAME]github.io site. Commit and push your changes to your github.io site. Double check that everything is displaying  properly. Then add a link on the index of your site to make sure people can learn from your example!
+
+## Helpful Resources
+If you want more resources or time to build a responsive site, consider going through any of these additional resources (which take a couple of hours each):
+- [Treehouse: Build a Responsive Website](http://teamtreehouse.com/library/build-a-responsive-website)
+- [16 really useful responsive design tutorials](http://www.creativebloq.com/netmag/16-really-useful-responsive-design-tutorials-71410085).
+
+
