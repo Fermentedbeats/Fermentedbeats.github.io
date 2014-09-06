@@ -5,6 +5,9 @@
 }
 
 /*GENERAL*/
+p {
+  font-size: 1em;
+}
 
 #wrapper {
   width: 100%;
@@ -39,7 +42,7 @@ header,
   float: left;
   float: top;
   padding: 3% 3% 3% 3%;
-  margin: 3% 0 0 3%;
+  margin: 3% 0 5% 3%;
 }
 #headshot  {
   display: inline-block;
@@ -81,9 +84,9 @@ li {
 }
 /*BUTTONS*/
 #button {
-  border-spacing: 30px 10px;
+  border-spacing: 1em 1em;
   font-family: Arial;
-  padding: .5em 0 .5em 0;
+  padding: .5em .5em .5em .5em;
 }
 .logos a {
   text-decoration: none;
@@ -124,5 +127,19 @@ li {
   width: 100%;
   }*/
 
+@media (max-width: 750px) {
+     .about {
+  width: 90%;
+  display: block;
+  padding: 3% 3% 3% 3%;
+  margin: 3% 0 0 3%;
+}
 
+   #sidebar {
+  width: 50%;
+  display: block;
+  margin: 3% 40% 3% 40%;
+   }
+
+}
 
