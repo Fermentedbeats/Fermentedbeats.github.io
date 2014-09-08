@@ -14,7 +14,7 @@ p {
   height: 100%;
 }
 body {
-  margin: 2em 5em 2em 5em;
+  margin: 1em 5em 2em 5em;
 }
 header,
 .about,
@@ -42,19 +42,19 @@ width: 100%;}
   display: inline-block;
   float: left;
   float: top;
-  padding: 3% 3% 3% 3%;
+  padding: 1% 3% 1% 3%;
   margin: 3% 0 5% 3%;
 }
 #headshot  {
   display: inline-block;
   float: right;
   padding: 1% 0% 1% 1%;
-  width: 25%;
+  width: 20%;
   margin-right: 6%;
 }
 #hero {
-  font-size: 3em;
-  margin-left: .5em;
+  font-size: 2.5em;
+  margin-left:  2em;
 }
 
 .current {
