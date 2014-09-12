@@ -38,6 +38,9 @@ table {
   font-family: Arial;
   font-size: 15px;
 }
+
+
+
 td a {
   text-decoration: none;
   color: #5C2E00;
@@ -93,5 +96,12 @@ display: block;
   width: 100%;
 }
 
+span {
+  text-decoration: line-through;
+}
 
-
+h1,
+li,
+p {
+    color: #5C2E00;
+  }

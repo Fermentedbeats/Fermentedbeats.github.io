@@ -136,3 +136,10 @@ textarea {
   width: 90%;
 }
 
+.smallimgs {
+    width: 40%;
+    margin-left: 30%;
+}
+span {
+  text-decoration: line-through;
+}
