@@ -42,9 +42,18 @@ td a {
 td img {
  height: 12px;
  padding-left: 10px;
+
 }
 
 /*BLOG*/
+
+
+#back  {
+  text-decoration: none;
+  color: #666633;
+     font-size: 12px;
+
+}
 .blog {
   display: block;
   width: 80%;
@@ -140,3 +149,4 @@ textarea {
     width: 40%;
     margin-left: 30%;
 }
+
