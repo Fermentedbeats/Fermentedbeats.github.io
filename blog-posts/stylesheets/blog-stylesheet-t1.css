@@ -150,3 +150,8 @@ textarea {
     margin-left: 30%;
 }
 
+.screenshot {
+margin-left: 20%;
+border: 1px solid #666633;
+box-shadow: 1em 1em .5em #666633;
+}

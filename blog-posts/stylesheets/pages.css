@@ -103,3 +103,6 @@ li,
 p {
     color: #5C2E00;
   }
+
+  a:hover {
+    text-decoration: underline;
