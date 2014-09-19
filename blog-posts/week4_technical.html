@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet-t1.css">
+</head>
+<body>
+
+<style id="bkg">
+body {
+    background-image: url("stylesheets/Background.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+</style>
+
+  <div><!--Header--><img class="header" src="stylesheets/draft1logosmall.gif"><!---->
+    <table><!--Buttons-->
+      <tbody>
+        <tr>
+         <td class="menu"><a href="../index.html">Home</a></td>
+         <td class="menu"><a href="Resume.html">Resume</a></td>
+          <td class="menu"><a href="Projects.html">Projects</a></td>
+          <td class="menu"><a href="DBCBlog.html">Dev Bootcamp Blogs</a></td>
+          <td class="menu"><a href="http://cjdoesit.com">Main Blog</a></td>
+          <td class="logos"><a href="mailto:vitamincjj@gmail.com"><img src="stylesheets/TN_envelope_dotted_line.jpg"></a></td>
+          <td class="logos"><!-- GitHub --><a href="https://github.com/Fermentedbeats"><img src="stylesheets/GitHub-Mark-32px.png"></a></td>
+          <td class="logos"><!-- tdnkedIn --><a href="www.linkedin.com/in/vitamincjj/"><img src="stylesheets/InBug-16px_0.png"></a></td>
+          <td class="logos"><!--Twitter--><a href="https://twitter.com/VitaminCJJ"><img src="stylesheets/Twitter_logo_blue.png"></a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="blog"><!--BLOG STUFF-->
+    <section class="body"><!--Body-->
+      <h1>Ruby Road.map</h1>
+      <table class="meta">
+        <tr>
+          <td><p id="date"><em><strong>Date:</strong> September 18, 2014 </em></p></td>
+          <td><p id="cat" ><em><strong>Tags:</strong> Dev Bootcamp, DBC, Ruby</em></p></td>
+        </tr>
+      </table>
+
+        <p id="meat"><!-- INSERT BLOG HERE -->
+
+<font size=6>R</font>uby's enumerable methods are fast becoming my go-tos.  Their magic is found in the significant ability to reduce the word vomit ever-present in newbie code. Today we check out the classic map method:<br><br>
+
+
+
+      <ul>
+     <li>In the dawn of learning Ruby as a complete newcomer to programming, there's an early understanding of needing to "loop." Looping gets something done a bunch of times so you don't go blind writing the same command a thousand times.  However, looping without an understanding of enumerables can lead to some weird practices.
+      <li>"While," "times," "until," and "for" loops cover a lot of needs, but what if you don't have a true/false condition or know the number of times something will happen?  When I look back at some of my earliest loops for codeacademy and other tutorials I see a lot of "while true" statements paired with later "now it's false statements," constructed only to force a loop.  Similarly I found myself liberally jamming in empty arrays to hold my data. </li>
+     <li>Enumerables, as I've learned this week, circumvent these awkward artifical loops.  The map method will apply the given code block to each element in your array, returning a new array, like so:</li>
+      <p> &nbsp; &nbsp; &nbsp; <strong> array.map { |x| do_something_to_each_element_of_the_array } => new_array_with_results  </p></strong>
+
+      <li>In practice, the map method iterates for you.  No loop construct?  No problem. </li><br>
+
+
+       <p><strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;def good_investment(array_of_customer_investments)<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; plus_interest = array_of_customer_investments.map {|x| plus_interest << (x * 1.08) }<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;end</strong></p>
+     </ul><br><br>
+
+
+
+What do you think about enumerable methods?  Tell me below (...once I figure out how the hell to code in a comments box) or send me an <a href="mailto:vitamincjj@gmail.com">email</a>.<br><br><br>
+
+
+        </p>
+      </section>
+      <div class="comments"><!--Comments-->
+        <font size="4px">Click to See Comments </font><font size="2px">(This does not work yet)</font></div>
+        <form>
+          <textarea class="name">Name (This does not work yet)</textarea><br>
+          <textarea class="commentbox">Comment (This also does not work.)</textarea><br>
+          <input type="submit" name="submit" value="Send">
+        </form>
+      </div>
+    </div>
+      <div class="recent"><!--Recent Posts--><strong>Recent Posts
+        </strong><h3 class="new"></h3>
+          <p class="new"><a href="#">Post 1</a></p>
+          <p class="new"><a href="#">Post 2</a></p>
+          <p class="new"><a href="#">Post 3</a></p>
+
+        </ul>
+      </div>
+      <div class="footer"><!--FOOTER--><img src="stylesheets/footer.png"></div>
+    </div>
+  </body>
+  </html>
