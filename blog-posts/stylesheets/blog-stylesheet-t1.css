@@ -161,3 +161,10 @@ width: 100%;
 border: 1px solid #666633;
 box-shadow: 1em 1em .5em #666633;
 }
+
+blockquote {
+  margin-top: 1px solid #666633;
+  margin-bottom: 1px solid #666633;
+  font-size: 1.25em;
+  text-decoration: bold;
+}
