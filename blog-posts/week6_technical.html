@@ -1,46 +1,55 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="stylesheets/blog-stylesheet-t1.css">
+  <link rel="stylesheet" type="text/css" href="stylesheets/BLOGTEMPLATE.css">
 </head>
-<body>
+<div id="wrapper">
+  <body>
+        <style id="bkg">  body {
+        background-image: url("imgs/bricksbkg1.jpg");
+        background-repeat: repeat-y;
+        background-size: 100%;
+        /*background-attachment: fixed;*/  }
+    </style>
 
-<style id="bkg">
-body {
-    background-image: url("stylesheets/Background.png");
-    background-repeat: repeat-y;
-    background-size: 100%;
-}
-</style>
+      <div id="header"><img src="imgs/logo1025.png" /></div>
 
-  <div><!--Header--><img class="header" src="stylesheets/draft1logosmall.gif"><!---->
-    <table><!--Buttons-->
-      <tbody>
-        <tr>
-         <td class="menu"><a href="../index.html">Home</a></td>
-         <td class="menu"><a href="Resume.html">Resume</a></td>
-          <td class="menu"><a href="Projects.html">Projects</a></td>
-          <td class="menu"><a href="DBCBlog.html">Dev Bootcamp Blogs</a></td>
-          <td class="menu"><a href="http://cjdoesit.com">Main Blog</a></td>
-          <td class="logos"><a href="mailto:vitamincjj@gmail.com"><img src="stylesheets/TN_envelope_dotted_line.jpg"></a></td>
-          <td class="logos"><!-- GitHub --><a href="https://github.com/Fermentedbeats"><img src="stylesheets/GitHub-Mark-32px.png"></a></td>
-          <td class="logos"><!-- tdnkedIn --><a href="www.linkedin.com/in/vitamincjj/"><img src="stylesheets/InBug-16px_0.png"></a></td>
-          <td class="logos"><!--Twitter--><a href="https://twitter.com/VitaminCJJ"><img src="stylesheets/Twitter_logo_blue.png"></a></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="blog"><!--BLOG STUFF-->
-    <section class="body"><!--Body-->
-     <a href="DBCBlog.html" id="back"><em><< back</em></a>
-      <h1>Variables</h1>
-      <table class="meta">
-        <tr>
-          <td><p id="date"><em><strong>Date:</strong> October 3, 2014 </em></p></td>
-          <td><p id="cat" ><em><strong>Tags:</strong> Dev Bootcamp, DBC, Ruby</em></p></td>
-        </tr>
-      </table>
-        <p id="meat"><!-- INSERT BLOG HERE -->
+
+   </div>
+   <div class="body">
+
+    <!-- 1 TITLE & DATE -->
+    <h1>
+<!-- TITLE HERE -->
+Variables
+    </h1><br>
+    <p id="date"><em><strong>Date:</strong>
+<!-- DATE HERE -->
+October 3, 2014
+    </em></p>
+
+
+        <div class="affiliates">
+          <table id="button">
+            <tbody>
+              <tr>
+                <td class="logos"><a href="mailto:vitamincjj@gmail.com"><img src="stylesheets/TN_envelope_dotted_line.jpg"></a></td>
+              </tr>
+                <td class="logos"><a href="https://github.com/Fermentedbeats"><img src="stylesheets/GitHub-Mark-32px.png"></a></td>
+              </tr>
+                <td class="logos"><a href="https://www.linkedin.com/in/vitamincjj"><img src="stylesheets/InBug-16px_0.png"></a></td>
+              </tr>
+                <td class="logos"><a href="https://twitter.com/VitaminCJJ"><img src="stylesheets/Twitter_logo_blue.png"></a></td>
+              </tr>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+
+    <p id="meat">
+
+<!-- PASTE & COMMENTS -->
 
 <font size=6>A</font>s we know, variables are names for stored data.  Much like the occupational names in English history, where "Smith" denoted someone who worked as a blacksmith, Ruby also gives clues to where the variable works a.k.a the scope.<br><br>
 
@@ -65,29 +74,22 @@ Ruby has four main types of variable scopes.  Let's dig in: <br><br>
 <img class="wk6" src="imgs/wk6classsub.png" /><br><br>
 <img class="wk6" src="imgs/wk6class.png" /><br><br>
 
-What's your favorite variable?  Tell me below (...once I figure out how the hell to code in a comments box) or send me an <a href="mailto:vitamincjj@gmail.com">email</a>.<br><br><br>
-</p>
+What's your favorite variable?    <a href="mailto:vitamincjj@gmail.com">Send me an email and tell me about it</a>.<br><br><br>
+    </p>
+  </div>
 
-        </p>
-      </section>
-      <div class="comments"><!--Comments-->
-        <font size="4px">Click to See Comments </font><font size="2px">(This does not work yet)</font></div>
-        <form>
-          <textarea class="name">Name (This does not work yet)</textarea><br>
-          <textarea class="commentbox">Comment (This also does not work.)</textarea><br>
-          <input type="submit" name="submit" value="Send">
-        </form>
+ <div id="sidebar">
+      <div class="links"><p><a href="https://www.linkedin.com/in/vitamincjj"><em><strong>Resume</strong></em></a></p>
       </div>
-    </div>
-      <div class="recent"><!--Recent Posts--><strong>Recent Posts
-        </strong><h3 class="new"></h3>
-          <p class="new"><a href="#">Post 1</a></p>
-          <p class="new"><a href="#">Post 2</a></p>
-          <p class="new"><a href="#">Post 3</a></p>
 
-        </ul>
+      <div class="links"><p><a href="blog-posts/DBCBlog.html"><em><strong>Dev Bootcamp Blog</strong></em></a></p>
       </div>
-      <div class="footer"><!--FOOTER--><img src="stylesheets/footer.png"></div>
-    </div>
-  </body>
-  </html>
+
+      <div class="links"><p><a href="http://cjdoesit.com"><em><strong>Main Blog</strong></em></a></p>
+      </div>
+
+      <div class="links"><p><a href="https://github.com/Fermentedbeats"><em><strong>Projects</strong></em></a></p>
+      </div>
+</div>
+</body>
+</html>
