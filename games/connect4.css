@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.mainContainer{
+	width:562px;
+	height:482px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 50px;
+}
+
+.boardLegs {
+	border: 2px solid black;
+	width: 20px;
+	height: 560px;
+	background-color: blue;
+	display: inline-block;
+	margin-top: 45px
+}
+
+.boardContainer {
+	border: 1px solid black;
+	width: 562px;
+	height: 482px;
+	margin: auto;
+}
+.boardSquare {
+	border: 3px solid #E6E600;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	background-color: #EEEE4D; 
+}
+.boardCircle {
+	background-color: white; 
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 3px;
+}
+.checker {
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: -87%;
+}
