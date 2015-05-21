@@ -158,7 +158,7 @@ function checkForWinner(index) {
      				countingToFour++;
      				//console.log("loop2");
      				if (countingToFour === 4) {
-     					console.log("winner direction1")
+     					alert("Player " + boardArray[index] + " wins!");
      					return "Winner"; 			
      				}
 	
@@ -169,7 +169,7 @@ function checkForWinner(index) {
      				console.log(countingToFour)
      				countingToFour++;
      				if (countingToFour === 4) {
-     					console.log("winner direction2")
+     					alert("Player " + boardArray[index] + " wins!");
      					return "Winner"; 	
      				}
 	
@@ -180,9 +180,6 @@ function checkForWinner(index) {
 		}
 	}
 }
-
-
-
 
 // 6 stop game when there's a winner
 
