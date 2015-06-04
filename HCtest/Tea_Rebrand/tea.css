@@ -1,0 +1,152 @@
+.jumbotron {
+	margin-top: -50px;
+}
+
+#hero {
+	font-family: georgia;
+}
+#hero h1 {
+	text-align: center
+}
+/*#aboutYou {
+	float: left;
+}
+#aboutUs {
+	float: right;
+}*/
+#about, #about2 {
+	padding-top: 2em;
+	padding-bottom: 1em;
+}
+#header {
+	display: inline-block;
+	height: 280px;
+    background-image: url("img/berriesHeader2.png");
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-margin: 0; 
+}
+i {
+	color: #337ab7;	
+}
+h4 i {
+	color: black;	
+}
+h4 a {
+	color: #333;
+}
+#socialNav {
+	margin-top: 1%;
+	float: left;
+
+}
+#shopNav {
+	margin-top: 1%;
+	float: right;
+	color: #337ab7;
+}
+
+#dropdown {
+	width: 35px;
+	float: right;
+}
+
+#logo {
+	margin-top: 10%;
+	/*margin-left: 45%;*/
+}
+
+#ourTea {
+	/*border: 1px solid black;*/
+	background: url("img/poppyHeader.png") no-repeat;
+    background-size: 100%;
+    /*opacity: 0.8;*/
+
+}
+#ourTea p {
+	font-size: 1.5em;
+		color: white;
+		text-transform: none;
+		height: 300px;
+		margin-top: 5%;
+		/*text-align: center;*/
+		/*vertical-align: text-top;*/
+}
+#button {
+	/*display: center;*/
+    color: black;
+    /*background-image: url("img/flax.jpg");*/
+    background: url('img/greenery.jpg') no-repeat;
+    border-radius: 10%;
+    font-family: verdana;
+    height: 3em;
+
+}
+#product {
+	/*margin-top: 1em;*/
+	padding-bottom: 5%;
+	padding-top: 5%;
+
+}
+#product img {
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 3%;
+
+}
+
+#purchaseNow {
+	margin-top: 2%;
+}
+.aboutText {
+	text-align: center;
+	font-weight: bold;
+}
+#woman, #teaUnsplash {
+	width: 100%;
+	border-radius: 10%;
+}
+#teaUnsplash {
+	margin-top: 5%
+}
+.ing {
+	width: 8em;
+	height: 6em;
+	border-radius: 100%;
+	margin-top: 3em;
+	margin-left: 5em;
+}
+#dropdown {
+	width: 6em;
+	margin-right: 2em;
+	
+}
+#kiehl {
+	text-align: center;
+}
+#ingredContent{
+	margin-bottom: 4em;
+}
+body {
+	background-color: 
+}
+
+li {
+    display: inline;
+}
+/*i {
+	color: #33CCFF;
+}*/
+h1 {
+	/*font-size: 30em;*/
+	padding-bottom: 1%;
+}
+h6 {
+	text-align: center;
+}
+h4 {
+	font-family: verdana;
+}
+#red {
+	color: red;
+}
+
