@@ -60,6 +60,7 @@ h4 a {
 	width: 45px;
 	float: right;
 	position: fixed;
+	overflow: visible;
 
 }
 
