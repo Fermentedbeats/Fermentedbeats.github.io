@@ -34,7 +34,7 @@ i:hover {
 	color: #0080ff;	
 }
 h4 i {
-	color: black;	
+	color: #333;	
 }
 h4 a {
 	color: #333;
@@ -76,11 +76,11 @@ h4 a {
 
 }
 #ourTea p {
-	    font-size: 2em;
+	    font-size: 1.5em;
 		color: black;
 		text-transform: none;
-		height: 300px;
-		margin-top: 2.5%;
+		height: 225px;
+		margin-top: 10%;
 		/*text-align: center;*/
 		/*vertical-align: text-top;*/
 }
@@ -121,7 +121,7 @@ h4 a {
 	border-radius: 10%;
 }
 #teaUnsplash {
-	margin-top: 10%;
+	margin-top: 8%;
 }
 #bark {
 	width: 100%;
