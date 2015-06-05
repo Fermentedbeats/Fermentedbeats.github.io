@@ -77,7 +77,7 @@ h4 a {
 
 }
 #ourTea p {
-	    font-size: 1.5em;
+	    font-size: 1.75em;
 		color: black;
 		text-transform: none;
 		height: 225px;
@@ -122,7 +122,7 @@ h4 a {
 	border-radius: 10%;
 }
 #teaUnsplash {
-	margin-top: 8%;
+	margin-top: 10%;
 }
 #bark {
 	width: 100%;
