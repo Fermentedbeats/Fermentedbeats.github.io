@@ -27,7 +27,11 @@
     background-margin: 0; 
 }
 i {
-	color: #337ab7;	
+	/*color: #337ab7;	*/
+	color: white;	
+}
+i:hover {
+	color: #0080ff;	
 }
 h4 i {
 	color: black;	
@@ -40,15 +44,23 @@ h4 a {
 	float: left;
 
 }
+
+
 #shopNav {
 	margin-top: 1%;
 	float: right;
-	color: #337ab7;
+	color: white;
+}
+#shopNav li:hover {
+	color: #0080ff;
+
 }
 
 #dropdown {
 	width: 35px;
 	float: right;
+	position: fixed;
+
 }
 
 #logo {
@@ -58,28 +70,31 @@ h4 a {
 
 #ourTea {
 	/*border: 1px solid black;*/
-	background: url("img/poppyHeader.png") no-repeat;
+	background: url("img/poppyHeader4.png") no-repeat;
     background-size: 100%;
     /*opacity: 0.8;*/
 
 }
 #ourTea p {
-	font-size: 1.5em;
-		color: white;
+	    font-size: 2em;
+		color: black;
 		text-transform: none;
 		height: 300px;
-		margin-top: 5%;
+		margin-top: 2.5%;
 		/*text-align: center;*/
 		/*vertical-align: text-top;*/
 }
 #button {
 	/*display: center;*/
-    color: black;
+    color: white;
     /*background-image: url("img/flax.jpg");*/
-    background: url('img/greenery.jpg') no-repeat;
+    background: url('img/peppermint.jpg') no-repeat;
     border-radius: 10%;
     font-family: verdana;
     height: 3em;
+    box-shadow: 5px 5px 2.5px #888888;
+	border-radius: 3%;
+
 
 }
 #product {
@@ -106,8 +121,21 @@ h4 a {
 	border-radius: 10%;
 }
 #teaUnsplash {
-	margin-top: 5%
+	margin-top: 10%;
 }
+#bark {
+	width: 100%;
+	color: white;
+	z-index: 0;
+	background: url('img/bark3.png') no-repeat;
+	background-size: 120%;
+	height: 280px;
+}
+#bark p {
+	font-size: 2em;
+	margin-top: 1.5em;
+}
+
 .ing {
 	width: 8em;
 	height: 6em;
@@ -124,7 +152,11 @@ h4 a {
 	text-align: center;
 }
 #ingredContent{
-	margin-bottom: 4em;
+	margin-top: 4em;
+	margin-bottom: 6em;
+}
+#aboutYou {
+	margin-top: 3em;
 }
 body {
 	background-color: 
