@@ -1,0 +1,66 @@
+div {
+	box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+
+#main {
+	display: inline-block;
+	width: 90%;
+	margin-left: 5%;
+}
+#board {
+	display: inline-block;
+	width: 300px;
+	margin-left: 15%;
+	float: left;
+}
+
+.cards, .assigned {
+	float: left;
+	border: 1px solid black;
+	width: 125px;
+	height: 150px;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	border-radius: 15%;
+	background-image: url(imgs/cardLowRes.png);
+	background-size: 100%;
+	text-align: center;
+
+}
+
+
+
+#side {
+	/*border: 1px solid black;*/
+	height: 300px;
+	width: 230px;
+	margin-left: 5%;
+	float: left;
+	border-radius: 15%;
+	text-align: center;
+	display: inline-block;
+}
+#begin {
+	margin-left: 40%;
+	margin-top: 2%;
+	border-radius: 15%;
+	font-size: 1em;
+}
+.colors {
+	border: 1px solid black;
+	border-radius: 15%;
+	width: 30px;
+	height: 15px;
+	float: left;
+	margin-left: 3%;
+	margin-bottom: 3%;
+}
+#header {
+	text-align: center;
+	width: 90%;
+	font-size: 2em;
+	margin-top: 2em; 
+	margin-bottom: 2em; 
+}
