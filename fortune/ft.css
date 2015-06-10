@@ -6,6 +6,7 @@ div {
 
 .curtain {
 	background-color: black;
+	height: 1200px;
 }
 #main {
 	display: inline-block;

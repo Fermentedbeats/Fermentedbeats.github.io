@@ -242,11 +242,11 @@ function blowUp() {
 	}
 	document.getElementById("board").style.marginLeft = "1%";
 
-var newButton = document.createElement('button');
-newButton.id = "newButton";
-document.getElementById("board").appendChild(newButton);
-newButton.innerHTML = "Play Again?";
-newButton.addEventListener("click", fortuneTellerApp);
+// var newButton = document.createElement('button');
+// newButton.id = "newButton";
+// document.getElementById("board").appendChild(newButton);
+// newButton.innerHTML = "Play Again?";
+// newButton.addEventListener("click", fortuneTellerApp());
 
 
 }
