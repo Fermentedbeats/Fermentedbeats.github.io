@@ -4,6 +4,9 @@ div {
   -webkit-box-sizing:border-box;
 }
 
+.curtain {
+	background-color: black;
+}
 #main {
 	display: inline-block;
 	width: 90%;
@@ -35,32 +38,37 @@ div {
 #side {
 	/*border: 1px solid black;*/
 	height: 300px;
-	width: 230px;
+	width: 70px;
 	margin-left: 5%;
 	float: left;
 	border-radius: 15%;
 	text-align: center;
 	display: inline-block;
 }
-#begin {
+#begin, #newButton {
 	margin-left: 40%;
 	margin-top: 2%;
 	border-radius: 15%;
-	font-size: 1em;
+	font-size: 2em;
+	background-color: gold; 
+
 }
 .colors {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	border-radius: 15%;
-	width: 30px;
-	height: 15px;
+	width: 40px;
+	height: 25px;
 	float: left;
 	margin-left: 3%;
-	margin-bottom: 3%;
+	margin-bottom: 6%;
 }
 #header {
 	text-align: center;
 	width: 90%;
-	font-size: 2em;
-	margin-top: 2em; 
-	margin-bottom: 2em; 
+	font-size: 4em;
+	margin-top: 1em; 
+	margin-bottom: 1em; 
+	font-family: verdana;
+	letter-spacing: 1px;
+	color: gold;
 }
