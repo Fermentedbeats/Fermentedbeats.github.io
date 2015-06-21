@@ -160,8 +160,8 @@ body {
 /*This part is for the about box not the H2s */
 #about p {
 	text-align: center;
-	margin: 2em 2em 6em 2em;
-	font-size: .9em;
+	margin: 2em .5em 6em 2em;
+	font-size: .8em;
 	color: white;
 }
 
