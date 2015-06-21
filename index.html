@@ -1,101 +1,133 @@
-
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="blog-posts/stylesheets/landing-redo-2.css">
-  </head>
-
+<head>
+	<meta charset="utf-8">
+	<title>CJ done did it</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/main/main.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/main/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
 <body>
-  <div id="wrapper">
-    <style id="bkg">  body {
-        background-image: url("blog-posts/imgs/bricksbkg1.jpg");
-        background-repeat: repeat-y;
-        background-size: 100%;
-        /*background-attachment: fixed;*/  }
-    </style>
-
-                  <!-- LOGO DIV -->
-
-    <div id="header"><img src="blog-posts/imgs/logo1025.png" />
-    </div>
 
 
+	<div id="navDiv">
+		<ul id="navUl">
+			<li id="lastNav"><a href='blog.html'>blog</a></li>
+			<li><a href='#resume'>resume</a></li>
+			<li><a href='#portfolio'>portfolio</a></li>
+			<li><a href='#about'>contact</a></li>
+			<li><a href='#header'>home</a></li>
+		</ul>
+	</div><!--nav-->
 
+	<div id="header">
+		<img src="stylesheets/imgs/logo3.png" alt="text logo">
+	</div><!--header-->
 
-                  <!-- MAIN DIV -->
+	<!-- <div id="container"> -->
+	<div id="contactAboutContainer">
+		<div id="contact">
+			<div id="hi">Say Hi</div>
+			<div id="headshot"><img src="stylesheets/imgs/cj.jpg" alt="cj johnson"></div>
+			<div id="links">
+			<ul id="iconUl">
+				<li><a href='https://www.github.com/fermentedbeats' target="_blank"><i class="fa fa-github"><p>github.com/fermentedbeats</p></i></a></li>
+				<li><a href='https://www.linkedin.com/in/vitamincjj' target="_blank"><i class="fa fa-linkedin"><p>linkedin/in/vitamincjj</p></i></a></li>
+				<li><a href='mailto:vitamincjj@gmail.com'><i class="fa fa-envelope"></i><p>vitamincjj@gmail.com</p></a></li>
+				<li><a href='#'><i class="fa fa-phone"></i><p>510.759.7755</p></a></li>
+			</ul>
+		</div>
 
-    <div class="about">
-
-                <!-- LOGOS -->
-        <div class="affiliates">
-          <table id="button">
-            <tbody>
-              <tr>
-                <td class="logos"><a href="mailto:vitamincjj@gmail.com"><img src="blog-posts/stylesheets/TN_envelope_dotted_line.jpg"></a></td>
-              </tr>
-                <td class="logos"><a href="https://github.com/Fermentedbeats"><img src="blog-posts/stylesheets/GitHub-Mark-32px.png"></a></td>
-              </tr>
-                <td class="logos"><a href="https://www.linkedin.com/in/vitamincjj"><img src="blog-posts/stylesheets/InBug-16px_0.png"></a></td>
-              </tr>
-                <td class="logos"><a href="https://twitter.com/VitaminCJJ"><img src="blog-posts/stylesheets/Twitter_logo_blue.png"></a></td>
-              </tr>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-              <!-- ABOUT INFO -->
-
-      <p><span id="hero">CJ JOHNSON</span>
-      <img id="headshot" src="blog-posts/imgs/204 copy.JPG"/>
-
-      <br>
-      <em>* Maker of things * Helper of people * Weightlifter * Tinkerer *  Bartender * Aspiring polyglot * Writer * Food fermenter * Productivity nerd *</em><br><br><br><br>Attending Dev Bootcamp (Largemouth Bass Cohort). &nbsp; Seeking employment in the Bay Area.</p>
-
-          <div id="classwrapper"
-            <div class="current" id="leftcurrent">
-             <p><strong>Currently Learning:</strong></p>
-             <ul>
-               <li>HTML & CSS</li>
-               <li>Javascript</li>
-               <li>Ruby</li>
-               <li>Rails</li>
-               <li>French (Pimsleur Method)</li>
-             </ul>
-            </div>
-
-            <div class="current" id="rightcurrent">
-              <p><strong>Current Experiments:</strong></p>
-              <ul>
-                <li>The Pomodoro Technique</li>
-                <li>1 Gallon H20 x Day</li>
-              </ul>
-            </div>
-          </div>
-    </div>
+		</div><!--contact-->
+		<div id="about">
+			<div class="textbox">
+				<h1><span>A</span>BOUT</h1>
+				<p>Hi, I'm CJ, a Software Engineer living in Oakland, CA. I've worked as a Director of Operations, Bartender, Journalist, and Voiceover Artist.<br><br> I spend my time getting better at development, deadlifting, fermenting vegetables, and trying to make the perfect cup of coffee.  I'm looking for employment in the Bay Area.</p>
+			</div><!--textbox-->
+		</div><!--about-->
+	</div><!--contactAboutContainer-->
 
 
 
+	<div id="portfolio">
+		<div class="textbox">
+			<h1><span>P</span>ORTFOLIO</h1>
+			<!-- <h2><em>Click the thumbnail to see each project</em></h2> -->
+		</div><!--textbox-->
+		<div class="thumbs">
 
 
-              <!-- PAGE LINKS -->
-    <div id="sidebar">
-      <div class="links"><p><a href="https://www.linkedin.com/in/vitamincjj"><em><strong>Resume</strong></em></a></p>
-      </div>
+			<table id="portTable">
+				<tr>
+					<td>
+						<div class="zoom thumb">
+							<a href="portfolio/conway/conway.html"><img src="stylesheets/imgs/portfolio/conwayThumb.png" alt="conway thumbnail"></a>
+								<a href="portfolio/conway/conway.html"><p>CONWAY'S<br>GAME OF LIFE</p></a>
+						</div>
+					</td>
+					<td>
+						<div class="zoom thumb">
+							<a href="portfolio/fortuneteller/ft.html"><img src="stylesheets/imgs/portfolio/fortuneteller.png" alt="fortuneteller thumbnail"></a>
+							<a href="portfolio/fortuneteller/ft.html"><p>FORTUNE<BR>TELLER</p></a>
+						</div>
+					</td>
+					<td>
+						<div class="zoom thumb">
+							<a href="portfolio/connect4/connect4.html"><img src="stylesheets/imgs/portfolio/connect4.png" alt="connect 4 thumbnail"></a>
+							<a href="portfolio/connect4/connect4.html"><p>CONNECT 4</p></a>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="descrip"><p><a href=''>Github link</a><br><em>Pure vanilla JS web app of 	Conway's Cellular Autmoton.</em></p></td>
+					<td class="descrip"><p><a href=''>Github link</a><br><em>Pure vanilla JS web app exploring the GreenSock animation library.</em></p></td>
+					<td class="descrip"><p><a href=''>Github link</a><br><em>Pure vanilla JS web app reproduction of the 2-player game Connect 4.</em></p></td>
+				</tr>
+			</table>
 
-      <div class="links"><p><a href="blog-posts/DBCBlog.html"><em><strong>Dev Bootcamp Blog</strong></em></a></p>
-      </div>
-
-      <div class="links"><p><a href="http://cjdoesit.com"><em><strong>Main Blog</strong></em></a></p>
-      </div>
-
-      <div class="links"><p><a href="https://github.com/Fermentedbeats"><em><strong>Projects</strong></em></a></p>
-      </div>
-
-    </div>
+		</div><!--thumbs-->
+	</div><!--portfolio-->
 
 
+<div id="resume">
+	<div class="textbox">
+		<h1><span>R</span>ESUME</h1>
+	</div>
+	<img src="stylesheets/imgs/Infographic6.jpg" alt="resume">
+</div><!--resume-->
+
+
+
+
+<div id="blog">
+	<a href="blog.html" target="_blank">
+	<div class="textbox">
+
+		<h1><span>B</span>LOG</h1>
 </div>
+</a>
+		<table>
+			<tr id="subtext">
+				<th><a href="blog.html"><p><span>M</span>OST <span>P</span>OPULAR<p></a></th>
+				<th><a href="blog.html"><p><span>L</span>ATEST<p></a></th>
+				
+			</tr>
+			<tr>
+				<td class="blogCol">
+					<a href="blog.html"><div class="blogThumb"><img src="blogImgs/jz992vb7.jpg" alt="jay-z"></div></a>
+					<a href="blog.html"><div class="blogTitle"><p>I Got 99 Problems But The Tech Ain’t One</p></div></a>
+				</td>
+	
+				<td class="blogCol">
+					<a href="blog.html"><div class="blogThumb"><img src="blogImgs/hochbunker.jpg" alt="prison"></div></a>
+					<a href="blog.html"><div class="blogTitle"><p>Internet Security: the Agony, the Ecstasy, the Ninja Gingers</p></div></a>
+				</td>
+			</tr>
+		</table>
+
+</div><!--blog-->
+
+
+
 </body>
 </html>
-
-

@@ -1,0 +1,167 @@
+* {
+	font-family: sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body {
+	width: 100%;
+	background-image: url("../imgs/coffee.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+p {
+	font-family: sans-serif;
+}
+
+/* All section headers */
+.textbox h1 {
+	margin-top: 1em; 
+	text-align: center;
+	font-family: coldcoffee;
+	font-size: 1.5em;
+}
+.textbox h1 span {
+	font-family: coldcoffee;
+	font-size: 1.25em;
+}
+
+#subtext span {
+	font-family: coldcoffee;
+	font-size: 1.25em;
+}
+
+/*This part is for the about box not the H2s */
+.textbox p {
+	text-align: center;
+	margin: 2em 4em 4em 6em;
+	font-size: 1em;
+}
+/*This is for the portfolio & blog H2s*/
+/**********   NAV **************/
+#navDiv {
+	width: inherit;
+	position: fixed;
+	z-index:9999;
+	background-color: black;
+	opacity: .8;
+	margin-top: -1em;
+}
+#navDiv a {
+	text-decoration: none;
+	color: white;
+	font-family: coldcoffee;
+	font-size: .5em;
+
+}
+#navUl {
+	width: 100%;
+	list-style: none;
+}
+#navUl li {
+	float: right; 
+	margin-left: 1em;
+}
+#lastNav {
+	margin-right: 3em;
+}
+
+/**********   HEADER **************/
+
+#header {
+	margin-top: 1em;
+	width: 100%;
+}
+#header img {
+	margin: 5% 25%;
+	width: 45%;
+}
+.blogCol {
+	width: 50%;
+}
+
+/*********  BLOG BOX **************/
+
+i, h3, h4, .titleImg {
+	display: inline-block;
+	font-family: coldcoffee;
+		vertical-align:middle;
+
+}
+h4 {
+	float: right;
+	font-size: .5em;
+	margin-right: 2em;
+}
+h3 {
+	font-size: .75em;
+	margin-left: 1em;
+}
+.q {
+	font-size: 2em;
+	font-family: georgia;
+	font-weight: 200;
+}
+
+.blogDiv {
+	clear:both;
+	background-color: white;
+	opacity: 0.8;
+	margin: 0 auto 15% auto;
+	width: 80%;
+}
+
+.blogPost {
+	border: 1px solid black;
+	width: 100%;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+
+.titleImg {
+	width: 10%;
+	height: same-as-width;
+	margin: 1em;
+	display: inline-block;
+	border-radius: 15%;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+.content {
+	padding:5%;
+		-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+
+/************  ACCORDIAN ************/
+
+ .invisible {
+ 	display: none;
+ }
+
+ .close {
+ 	float: right;
+ 	color: white;
+ 	background-color: black;
+ 	padding: 0 1em;
+ 	border-radius: 15%;
+ 	font-family: coldcoffee;
+	font-size: .5em;
+ }
+
+/************  IMAGES ************/
+
+.imgs29, .imgs28, .imgs27, .imgs16, .imgs11, .imgs10, .imgs7 {
+	display: block;
+	border:1px solid black;
+    margin: 1em auto;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+#rt {
+	width: 80%;
+}

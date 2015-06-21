@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CJdoesit</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/main/blogs.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/main/normalize.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+	<!--  BLOG TEMPLATE -->
+<!-- 	<div class="blogPost">
+		<img class="titleImg" src="blogImgs/" alt="">
+		<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">TITLE</h3><em><h4>DATE</h4></em>
+	</div>
+	<div class="invisible content">content2</div> -->
+	<!--  BLOG TEMPLATE -->
+
+
+
+	<div id="navDiv">
+		<ul id="navUl">
+			<li id="lastNav"><a href='index.html#resume'>resume</a></li>
+			<li><a href='index.html#portfolio'>portfolio</a></li>
+			<li><a href='index.html#about'>contact</a></li>
+			<li><a href='index.html'>home</a></li>
+		</ul>
+	</div><!--nav-->
+
+	<div id="header">
+		<img src="stylesheets/imgs/logo3.png" alt="text logo">
+	</div><!--header-->
+
+	
+	<div class="blogDiv">
+
+
+
+		<!-- ***************  29 ***************************** -->
+
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/hochbunker.jpg" alt="prison">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Internet Security:<br>the Agony, the Ecstasy, the Ninja Gingers</h3><em><h4>May 2015</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>Recently I’ve been pondering security.  Last week I met some of the wizards from <a href="https://getclef.com/" target="_blank">Clef</a> <!--more-->who are more or less my neighbors in downtown Oakland.  I was impressed: an app that removes the agony of remembering a thousand passwords that you can set up in under 60 seconds - but back to that in a minute.</p>
+
+			<p>At Dev Bootcamp I had the pleasure of attending a lecture by Laurie Voss, CTO of NPM (highly recommended - see it <a href="https://www.youtube.com/watch?v=NWo-RIHiEJ4&quot;&gt;https://www.youtube.com/watch?v=NWo-RIHiEJ4&lt;/a&gt;" target="_blank">here</a>).  Something Laurie said struck fear in the crowd of wanna-be programmers, “You can’t win.  It’s not how can you prevent your site getting hacked, it’s <em>when</em> will my data will get stolen.”  Takeaway being: do everything possible to protect your user info, and invest in solutions that make hacking as difficult as possible for your opponents.</p>
+
+			<p>My favorite hacker stories come from an acquaintance whose husband, an “unassuming ginger,” was once paid by companies to fly around the world and try to break into their networks.  We’re talking ‘rappelling off the roof’ type shenanigans, though honestly, he’s had a lot of success using far less sophisticated tactics.  Case in point: he was trying to figure out how to introduce a worm into the system of a very well-known tech company.  After a few days of scratching his head, he purchased a hundred flash-drives, loaded them up with his parasite, and dropped them in the parking lot before the early shift.  Want to guess how many workers picked up a flash-drive, headed upstairs, and unwittingly gave our Ninja Ginger unfettered access?  I’ll tell you this: he was celebrating his latest victory and sipping margaritas well before the sun went down that day.</p>
+
+			<p>As I entered the midpoint of DBC we learned about security and authorization, kicking off with how to implement the BCrypt Ruby gem, a salt &amp; hash solution, where the day’s lecture started with the warning: it’s not foolproof.  A cursory search tells my BCrypt is in fact very, very hackable - but BCrypt hedges against wide-scale attacks by being slow to verify a password, making the time investment to an attacker trying to brute-force their way into paydirt, far from cost or energy efficient.  For now…  No surprise that password-cracking has become exponentially more sophisticated as storage becomes cheaper.  Read <a href="https://securityledger.com/2012/12/new-25-gpu-monster-devours-passwords-in-seconds/" target="_blank">this article</a>  and really think about you online banking.  And take <a href="https://www.cloudcracker.com/#!/handshake" target="_blank">these guys</a> who are on the right side of the law, providing penetration testing resources.  Look at their tagline and tell me you don’t want to put your savings in your mattress:</p>
+			<img class="imgs29" src="blogImgs/29_crack_for_cheap.png" alt="cloud crack ad" />
+			<p>Sadly passwords are exploitable, just like people.  Well, because passwords are created by people.  It’s 2015 and I’ve seen many a person proclaim themselves ‘a hacker’s dream,’ by maintaining one password for ALL sites.  How many accounts do you think have been hacked because the password is “password?” Check out this <a href="http://lifehacker.com/5505400/how-id-hack-your-weak-passwords" target="_blank">lifehacker article</a>  if you really want to lose some sleep.  Our Ninja Ginger preys a fair amount on the vulnerability of people.  He once gained access to highly-secure building by studying the security guards, pegging one as homophobic, and getting ushered right in when posing as a well-to-do over-the-top-touchy stereotypical gay man who really, really, <em>really</em> had to use the bathroom.</p>
+
+			<p>It’s a jungle out there. So what’s a programmer to do?  One of the latest solutions I like takes the human-element, the password, out entirely along with the use of tokens.  With <a href="https://getclef.com/features/" target="_blank">Clef</a>  users verify their identity by using the computer that’s already on them: their phone.  Unlike the traditional complaint with mobile phone two-factor authentication, Clef can <a href="http://support.getclef.com/article/76-how-to-use-clef-mobile-in-offline-mode" target="_blank">work offline</a>.</p>
+
+			<p>Ninja Ginger had always wanted to rappel off a roof.  He took an assignment that involved breaking into a top-security building: as in, NSA secrets housed on-site  With a trunk full of anchors, slings, and a harness, poised in the woods with a set of binoculars, he was disappointed to see the guard duct-tape the backdoor’s latch so he wouldn’t be bothered key-carding his way back in after a smoke-break.  No rappel needed.</p>
+
+			<p>Be safe, people!</p>
+
+
+<div class="close">Close</div>		</div><!--blog content-->
+
+		<!-- ***************  28 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/jz992vb7.jpg" alt="Jay Z">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">I Got 99 Problems But The Tech Ain’t One</h3><em><h4>April 2015</h4></em>
+		</div>
+		<div class="invisible content">
+			
+			<p>What's the biggest issue facing the tech industry? It's filled with people. <!--more--></p>
+			<img class="imgs28" src="blogImgs/28_1.png" alt="" />
+			<p>The search suggestions here tell a story.</p>
+			<p>Think how many times non-programmers must have googled<em> 'WTF is wrong with the programmers'</em> to fill all 3 of the top slots. Then realize, that most of these people followed-up, asking <em>'why the hell are those people get paid so much' (...more than me.</em> With the implication that no asshole should make that much money).</p>
+			<p>The one line we might assume is actually from programmers is second from the last, <em>'why no overtime?'</em> because these same 'weirdo' programmers are on a 12-hour day burnout cycle, questioning why things are so damned unfair.</p>
+			<p>Here's the trick, it's not a programmer issue, it's a people issue. Look what pops up at the bottom of the page:</p>
+			<img class="imgs28" src="blogImgs/28_2.png" alt="" /><br /><br />
+			<p>Terrible, right? So what is wrong with people? And what is wrong with the people googling this shit? Oh, I don't know - choose one:</p>
+
+			<ul>
+				<li>passive aggressiveness</li>
+				<li>can't communicate</li>
+				<li>80's hair metal</li>
+				<li>anger management issues</li>
+				<li>don't know how to listen</li>
+				<li>too much / not enough religion</li>
+				<li>narcisscism</li>
+				<li>Mel Gibson</li>
+				<li>can't deal with stress</li>
+				<li>gluten</li>
+				<li>emotional immaturity</li>
+				<li>"society"</li>
+				<li>aggregate toxicity</li>
+				<li>spandex</li>
+			</ul>
+			<p>Doesn't matter. Whatever you'd choose is not the real answer anyway. The only thing wrong with other people is you. Yeah, seriously.</p>
+			<p>Maybe that programmer dude was rude to you because he's having a bad day. Or maybe he just thinks your an asshole. Or stuck-up. Or stupid. Doesn't matter. You can't control what anyone else thinks. Don't even bother youself with it - other people's thoughts of you are none of your business anyway. The only thing you can control is you, your thoughts, and actions.</p>
+			<p>So someone was a jerk to you. Maybe it bothererd you so much that you googled <em>[group of people] + [certain behavior]</em>. Why is this eating you? Do you need everyone to like you? Do you feel immediate rage if someone is disrespectful?</p>
+			<p>This is the secret of the universe: sort out the "you" issues and the "them" issues clear right up.</p>
+			<p>It's no wonder people are total donkeys - look at all the shit going on inside their heads (not to mention that song from <em>Rudolph</em> is cringe-worthy. Who are these maniacs that wanted the lyrics?):</p>
+			<img class="imgs28" src="blogImgs/28_3.png" alt="" />
+			<p><strong>The solution a.k.a. a 30 second primer on every self-help book:</strong> Define your boundaries. Assume the best about other people or at least assume they don't know any better. Cut people some slack. Share. Be polite. Figure out how to be direct when someone crosses a line or if you're unhappy. Listen really well. This helps people listen to you when you need them to. Are you the burnt out programmer from above working 12 hour days under the crushing weight of deliverables set by some higher-up who fundamentally has no idea what's possible? What's a reasonable boundary that will keep your sanity in check? Have a direct conversation and if things don't change, get the hell out of there. Don't exchange your health for a paycheck. Take care of yourself. Take care of others. Don't be a jerk. And please, use Google searches for good.</p>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  27 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/school.jpg" alt="school">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Why DBC<span class="q">?</span></h3><em><h4>November 2014</h4></em>
+		</div>
+		<div class="invisible content">
+			Week 1 of Phase 0 and yes, it moves fast.  Really fast.   The 15-20 hours a week is a pretty bad assessment.  More on that later.  <!--more-->So a week in and I've got a dedicated <a title="DBC Blog" href="http://fermentedbeats.github.io/" target="_blank">DBC blog</a> and two assigned posts up, including today's reflection on  why Dev Bootcamp.
+
+			With a veritable buffet of coding schools available these days, both online and in-person, why Dev Bootcamp? That is...<em> besides</em> the obvious goal of becoming a badass software developer.
+			<div class="blog"><section class="body">
+				<ul>
+					<li><strong>EQ:</strong> Once upon a time, not long ago, I was the worst manager. Sadly, I was put in charge of 20 people. I didn't know how to listen, I talked over people, I could not control my emotions, give or take criticism, and I lived on planet Passive Aggression. In my earnest hopes to stop being such as asshole I stumbled onto Travis Bradberry &amp; Jean Greaves' book <em>Emotional Intelligence 2.0</em> replete with before &amp; after tests. I would consider this time "the turning point." I was thrilled to see the DBC website refer to Chade-Meng Tan's video series on his book <em>Search Inside Yourself</em>, a primer on using Emotional Intelligence to connect and work well with others, find success, and generally get over yourself and get along with those around you.</li>
+					<li><strong>Yoga:</strong> I saw a documentary about Yoga several years back called <em>Enlighten Up</em>. The premise was a woman deeply believing in the life-changing abilities of sustained yoga practice finds a ‘normal guy,' and has him do daily yoga and record his experience. He doesn't become a great lover of yoga, but his life does change and the doc ends with him strengthening his family relationships. I've had this experience. At 23, a Bikram yoga studio opened down the block from my apartment in Bridgeport, CT. They had deals and discounts if you actually showed up every day - so I did. I spent nearly every night there for 6 months. Frankly, yoga got really boring: Bikram is the same set of poses every class without deviation. But despite the boredom, something had changed. The only way I can describe it, is I felt like my brain had been rewired. All of the sudden I was thinking clearly about my life and what needed to change. Long story short, I dumped a boyfriend, quit a go-nowhere job, and drove to California. Since living in California I had one similar experience when I started going to a meditation-night at the since-closed East Bay Meditation center; an experience that caused some deep life reassessment and lead me to check out concepts like EQ. I "get" DBC's mandatory yoga sessions. I believe everything ever written about the magic of yoga and meditation to help you live in the now, be more productive, and see the best path to fixing what's wrong.</li>
+					<li><strong>DIY: </strong> As I close on this week's DBC Phase 0 Week 1 challenges I watched <a href="http://vimeo.com/85001014">Shereef's fireside chat</a>, with the message that we are all wholly responsible for our own education. You get out what you put in, and as much as I wish for a magic pill to swallow that imparts me with awesome coding knowledge (I'm sure Google is working on this), the more I study, without burning myself out, the more I'll learn and one day be able to ultimately give back in the form of building something cool that benefits someone somewhere.</li>
+				</ul>
+				Have you ever had a yoga/meditative brain rewire? Shoot me an <a href="mailto:vitamincjj@gmail.com">email</a> and tell me about it.
+
+			</section></div>
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  26 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/productivity.jpg" alt="work">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Productivity Slam: A Tale of 3 Websites</h3><em><h4>October 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			What are your favorite websites?  Are they the same as the websites you visit most often?  Do you have a way of knowing?<!--more--> I do.  Check this out.
+
+			<strong>RescueTime <a href="https://www.rescuetime.com/dashboard">(https://www.rescuetime.com/dashboard)</a></strong>
+			<ul>
+				<li><strong>Function:</strong> Install their tracker and RescueTime will silently lurk in the background tracking each site, app file, or tool you visit, and for how long. Customize the hours or types of sites tracked, as desired. Set goals and alerts to keep on track.</li>
+				<li><strong>UX &amp; Design:</strong> Their free offering allows you to easily navigate to productivity snapshots across days/weeks/months and change classifications as needed. Clean graphics show you how you're spending your time at a glance. Their premium options include distraction block-out (similar free tools available elsewhere) and ability to enter offline productivity hours like a Sales call or a client meeting. My only frustration is the inability to set custom times to generate a productivity report e.g. if I want Weds-to-Monday stats, I manually collate day by day. Overall this site satiates the inner control freak and can lend some alarming news on just how much time you spend down the rabbit-hole.</li>
+				<li><strong>How I'm using it: </strong> Dev Bootcamp requires time-tracking of each week's phase-0 exercises to assess if they're doling out too much or too little to the new cohorts. Rescuetime makes this a snap; which is great, because frankly, I have zero time for anything else right now:</li>
+			</ul>
+			<img class="imgs27" id="rt" src="blogImgs/27_1.png" alt="rescuetime"/>
+
+			<strong>Asana <a href="https://app.asana.com">(https://app.asana.com)</a></strong>
+			<ul>
+				<li><strong>Function:</strong> Make to-do lists. Share to-do lists. Never forget a thing.</li>
+				<li><strong>UX &amp; Design:</strong> Create projects to control access or keep organized, tasks with due dates and tags live within each project, and users can populate a task with sub-tasks. Set-up email reminders to scold yourself when you're not meeting goals on time. The simplicity of this tool is key. Lose a task? Throw it into the searchbar. Undo with a click of a button. Drag &amp; drop tasks between projects. Set up recurring reminders on tasks. My only gripe with Asana has been connectivity. While I only recall two major outages in the past 6 months, one lasted about 6 hours and caused the most unproductive workday ever. Offline access would make this tool a dream come true.</li>
+				<li><strong>How I'm using it:</strong> Asana has been my house of worship for many years. I may not check Facebook every day but I absolutely check Asana every morning. With the phone app I keep my lists handy of recommended books, movies that friends thought were cool, and ideas as they come to me. Remember that time you got really drunk and told me you loved Fievel Goes West? Probably not. But it's a note in my “gift ideas” project and I will blow your mind with the perfect present on your birthday. Oil changes, teeth-cleanings, and checking my credit score annually? Automated pop-ups. I've fallen deeply in love with the subtasks as I sifted through Dev Bootcamp's stack of to-dos involving pairing, feedback rating.</li>
+			</ul>
+			<img class="imgs27" src="blogImgs/27_2.png" alt="asana"/>
+
+			<strong>A Life of Productivity (<a href="http://alifeofproductivity.com/">http://alifeofproductivity.com)</a></strong>
+			<ul>
+				<ul>
+					<li><strong>Function:</strong> What started out as Chris Bailey's 1 year experiment to maximize productivity (<a href="http://ayearofproductivity.com">ayearofproductivity.com</a>) grew to a more permanent fixture. He explores productivity hacks, practices like meditation, and self-experiments like limiting cell phone use, napping, reclusion, 90-hour work weeks, and more.</li>
+					<li><strong>UX &amp; Design:</strong> Clean, simple, to the point. This site's layout is easy to maneuver, dusted with professional color-saturated graphics, and inline with the productivity ethos, a handy box at the top of each article with an estimated reading time and the top takeaway.</li>
+					<li><strong>How I'm using it:</strong> As an avid Quantified Self and productivity nerd this is one of my go-tos for inspiration (especially when I know a day-long slog through software dev materials isn't delivering the goods to my brain in an easy-to-consume manner). After dropping in the screenshot of my 10-hour workday on Friday, I zeroed in on Chris' <a href="http://alifeofproductivity.com/chances-spend-way-much-time-staring-screens-every-day/">latest gem</a>, a not-so-gentle reminder that breaks and chill-out time are vital to truly boosting productivity, health, and sanity, aptly named, "<a href="http://alifeofproductivity.com/chances-spend-way-much-time-staring-screens-every-day/">Chances are you spend way too much time staring at screens every day</a>".</li>
+				</ul>
+			</ul>
+
+			What are your favorite Productivity sites?  Shoot me an <a href="mailto:vitamincjj@gmail.com">email.</a>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  24 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/wheel.jpg" alt="wheel">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Doing ALL THE THINGS part 2.<br>How it took 27 hours to reinvent the RPN wheel.</h3><em><h4>October 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>On Thursday DBC granted my cohort access to the Socrates ‘warm-up’ challenges<!--more-->plus word that instructions would follow on Monday.  There’s a nifty tab with 20 or so exercises that shows you who has finished the challenge, and once you finish one, you can everyone else's answers.</p>
+
+			<p>A few hours after the email went out I saw my comrade’s pictures populating in the finished field, so I got to it.  20 exercises = done in under 24 hours.</p>
+
+			<p>I could say something like ‘I love a challenge,” but the truth is I’m a maniac.  I need to <em>WIN</em>.  And while I know this mindset is not altogether ‘healthy’ per se, it’s gotten me incredibly far career-wise. I’m trying to learn how to ‘not’ be insanely competitive about everything.  I plan to start meditating in the coming weeks.</p>
+
+			<p>When I started going to crossfit classes I was weak, slow and uncoordinated.  A year later I could squat, clean, and press with good form, I had ramped up on all my lifts, but I was the weakest in class, and usually the slowest.  Did I have fun?  Yup.  Did I consciously know that being the weakest didn’t matter?  Yup.  Could I stop the incessant mental comparisons?  Nope.</p>
+
+			<p>I talked to fellow lifters about how crossfit was a real ‘humbling’ experience; sticking with it even though I’d never “win.”  No one really got it.  But my boss did.  My boss, the only person I know as competitive as I am, totally got it.  I said something one day about, “I know crossfit’s not supposed to be a competition,” when he cut me off emphatically saying, “<em>Of course</em> it’s a competition!”  I've heard about the upcoming DBC discussion on superego.  This may be medicine.</p>
+
+			<p>Mid-Friday I realized there were more Socrates exercises to do squirreled away in another tab (remember: no instructions until Monday).  I got to work on the next set of problems, many of which took significantly longer than the day before.  By Saturday morning I was down to one.  One very...very... hard problem.</p>
+
+			<p>By Sunday night I was broken.  I had logged a culmulative 23 hours of working on a reverse polish notation calculator.  (RPN is actually super cool).  I sent three separate pleas for help to StackOverflow. (Not a hospitable place for newbies).  I read ruby-doc.org pages until I couldn’t see straight.  I reviewed every Ruby RPN calculator that came up in the first pages of Google results.   I cursed everyone in history who had a hand in creating regexp.  I screamed, cried, and pounded my fists on the couch.  It was, just simply, not happening. Did it matter?  Probably not. Until I get the handbook I won’t know exactly how many had to be done.  For all I knew this was extra credit.</p>
+
+			<p>I hadn’t had a bout of insanity like this since since I first got into management a decade ago.  Well before I understood the importance of having a life outside work and taking breaks.  The reason was clear: I want to succeed and I'm afraid.  Succeeding is winning.  And I’m terrified of walking into DBC and not being smart enough to figure it out.  After my office was shut down, I dread going out to get another job doing exactly what I was doing.</p>
+
+			<p>And then it happened.  Monday rolls around, so I decide to start fresh on the RPN calculator.  An hour later I actually got a part to work.  I cannot explain why this miracle took place.  In the next hour my brain magically produced a sprinkle of regexp that tied the whole thing together.  One more hour and a Stack Overflow question later, I was done.  My RPN passed.</p>
+
+			<p>If you’re reading this blog, I should tell you that my behavior was completely unacceptable.  I’ve coached a ton of employees through stress management and this time I followed none of my own rules.  Take note, friends:</p>
+			<ul>
+				<li>Take breaks.  Take breaks and do something that calms you down.</li>
+				<li>Eat properly.  Don’t let your blood sugar crash when you’re working on something tough.</li>
+				<li>Conversely, don’t consume a shitload of caffeine and sugar because you’re stressing.  (Damn you, salted caramel gelato).</li>
+				<li>You have to figure out and address your stress long before the tears fall.  There are definitely signs.</li>
+				<li>Your brain is really good at solving problems, but it doesn’t operate on your schedule.  Sleep helps.  A lot.  So does exercise.  So does chilling out.</li>
+				<li>At the end of the line, you’ve got you.  That’s really it.  No matter what, you need to treat yourself like you’d treat your best friend.  The things you accept for yourself (relationships, diets, and especially what you say to yourself) must parallel what you’d want for someone you love.</li>
+			</ul>
+			<p>It’s Monday night.  No handbook yet, but the RPN is done.   The victory feels shallow because I went about it the wrong way and made myself crazy.  But it's D-O-N-E.</p>
+
+			<p>Want to check out crossfit?  This gym is awesome: <a title="Grassroots Crossfit" href="http://www.grassrootscrossfit.com/" target="_blank">Grassroots Crossfit.</a></p>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  23 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/school2.jpg" alt="school hallway">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Dev Bootcamp’s Pre-Pre Phase 0.<br>Thoughts on doing ALL THE THINGS</h3><em><h4>September 2014</h4></em>
+		</div>
+		<div class="invisible content">
+			<p>With months of time to kill before DBC Phase 0 kicks off I’ve been spending all free time trying to do and learn <em>ALL THE THINGS</em>.  <!--more-->I read blog after blog from current and former DBC students, trying to glean hints of what I should learn, and ultimately created the most epic list of topics, books, and tutorials.  So epic that I had far more to-dos than time to do them.</p>
+			<ul>
+				<li>No one can do <em>ALL THE THINGS</em>.</li>
+				<li>Bootcamp will be the same.  With what looks like 100-hour weeks in the near future, it’s not reasonable to expect full mastery or recollection of <em>ALL THE THINGS</em>.</li>
+				<li>I’m writing this at 2am.  I rarely have insomnia.</li>
+			</ul>
+			<p>My mom tells me from the time I was old enough to sit in a highchair I always wanted more.  Literally.  She could not hand me a sandwich without this small tyrant demanding, “<em>MORE!</em>” (meaning she’s cut my food in half an hand it back).  I still struggle with “more.”  More got me here - into programming school - but also piled on the anxiety through trying to learn the most more there is: ALL.</p>
+
+			<p>The important things are better than <em>ALL THE THINGS.  </em>Doing<em> ATT </em>is a myth. This is a damn hard lesson to accept.</p>
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  22 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/randocomp9.jpg" alt="papers">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Your Resume: the Basics</h3><em><h4>September 2014</h4></em>
+		</div>
+		<div class="invisible content">
+			
+			<p>In the last 10 years I’ve probably looked 5,000 resumes.  Maybe more.  I can cut through a stack of 100 in minutes.  Here’s what is guaranteed to get your resume thrown in the recycle bin:</p>
+			<!--more-->
+			<ul>
+				<li><b>Typos.  Obvious grammatical mistakes</b>.  If you’re applying for an office job, where you’d be writing emails all day, best not fuck up on this one.</li>
+				<li><b>A string of jobs worked for only a few months</b>.  It’s insanely expensive to have an empty seat.  It costs overtime to fill the gaps, money to post and recruit, and worst of all, time spent interviewing people when you just need a butt in the seat.  No one will gamble on you if you can’t demonstrate that you’ll stick around.  The one exception here is temp jobs.  If you bounced around every few months because you were a temp, make that really clear.</li>
+				<li><b>Fake degrees</b>.  You got your BA in 9 months?  Really?  Yes, I will absolutely google that.  If you’re Doogie Howser, you’re getting a call.  Otherwise, if you paid $60 for your online “college degree,” I have doubts about your decision-making abilities.</li>
+				<li><b>Shotgun blast resumes</b>.  You can send 1 resume to 100 postings, or send 10 tailored resumes to 10 openings.  If you think the odds are in favor of the former, you’d be wrong.  More than once I’ve received resumes with bust-waist-hip measurements from models and actresses.  Something tells me they were not enamored with the idea of data-crunching in our cubicles.</li>
+				<li><b>The overshare</b>.  Is your emsil SexMuffin69 or SmokeWeedxDaily4Life?  Yeah, not good. If there are no warrants out on you, okay, well done, but why am I reading about it on your resume?</li>
+				<li><b>Telling not showing</b>.  There’s a trend in resumes of the last 5 years where a synopsis bubble at the top rattles off vague and banal statements like, “works well as an individual or in a team.” “Good attention to detail.”  “Goal-oriented.”  I should be able to glean this from the story your resume tells.  Show me you’re a team player.</li>
+			</ul>
+			<p><strong>Last note</strong>: tailor your resume.  It does not need to take long.  Show that you have skills listed in the posting.  More and more robots scan resumes, assign a keyword match, and throw away perfectly good candidates.</p>
+
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  21 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/randocomp2.jpg" alt="computer">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">DBC Pre-work Learning Competencies</h3><em><h4>August 2014</h4></em>
+		</div>
+		<div class="invisible content">
+			
+			<p>...and back to the DBC Prep work.</p>
+			<!--more-->
+			<h2><strong>Command Line Learning Competencies</strong>:</h2>
+			<ul>
+				<li><b>Navigate between directories</b>: Use the cd command + destination or path to destination.</li>
+				<li><b>Create a new directory:</b> Use the mkdir command plus give it a name.</li>
+				<li><b>Delete a directory</b>: Use the rmdir command plus identify directory for purge.</li>
+				<li><b>List files in a directory:</b> Use the ls command.</li>
+				<li><b>Identify the directory I are in [sp]</b>: the pwd command will print the working directory.</li>
+				<li><b>Move a file between from one directory to another</b>: From what I can tell you cannot really ‘move’ a file.  You can copy (cp) to a new place.  The move (mv) command just renames the file in question.</li>
+				<li><b>Copy a file or directory:</b> copying is cp plus identifying the file to be copied.</li>
+				<li><b>Open a file in a text editor:</b> I got things set up where I can open sublime from terminal.  I can open files from sublime or from navigating to the file itself.  Can I open a file in sublime from terminal?  The internet tells me ‘yes.’  Saving this for later.</li>
+				<li><b>Run a ruby file</b>: in terminal write in <b>ruby name-of-file.rb</b>.</li>
+			</ul>
+			<h2><b>Ruby Learning Competencies:</b></h2>
+			<ul>
+				<li><b>Identify strings, integers, arrays, hashes, floats.</b>  <strong>Strings</strong> = letters, numbers, and symbols saved as text.  <strong>Integers</strong> = numbers.  <strong>Arrays</strong> = collection of objects or a collection of collections.  <strong>Hashes</strong> = key-value pairs.  <strong>Floats</strong> = integers with fractions of a whole number (decimal points).</li>
+				<li><b>Define a variable</b>.  Something that represents something else.</li>
+				<li><b>Interact with a user via the command line (ex. </b><b>gets</b><b>)</b>.  <b>gets.chomp</b> will take user input and remove the ‘return’ from the end of the input.</li>
+				<li><b>Describe flow control using if, elsif, else, and unless.  </b><strong>If</strong> has an implicit ‘do something’ when a certain criteria is met (when something is true).  <strong>Unless</strong> has an implicit “keep doing” something until criteria is met (until something is true).  <strong>Else</strong> gives an alternate option when an if criteria is not met.  <strong>Elsif</strong> gives multiple options when two options (<strong>if</strong> &amp; <strong>else</strong>) won’t cut it.</li>
+				<li><b>Convert a method using </b><b>if</b><b>/</b><b>else</b><b> to case using </b><b>when</b>. <b>If/else</b> work together, including additional <b>elsifs</b> in between the two to account for more arguments.  When allows you to build conditionals just using the word <b>when</b> and <b>else</b>.  This seems to save line space, as well.</li>
+				<li><b>Compare </b><b>=</b><b> and </b><b>==</b>.  <b>= </b>means equals.  It’s a declarative statement.  <b>== </b>is a question.</li>
+				<li><b>Describe loops and explain how the following work (</b><b>#times</b><b>, </b><b>#each</b><b>, </b><b>#while</b><b>, </b><b>#until</b><b>)</b>.  Loops are repetitive actions a computer will tirelessly perform.  <b>Times</b> is a finite loop; as in <b>10.times do …</b> will do something 10 times.  The <b>each</b> will perform an action on a series of items.  <b>While</b> &amp;<b> until </b>are pals.<b>  While </b>keeps a loop going until a condition returns false.  <b>Until</b> keeps looping until a condition is true.</li>
+				<li><b>Differentiate between arrays and hashes</b>.  An <b>array</b> is a collection of stuff, whereas <b>hashes</b> have stuff and a secondary component: <b>keys</b> and <b>values</b>. An <b>array</b> could be [ticket, $12] but the <b>hash </b>{ticket =&gt; $12} tells me my key, the “ticket,” is worth a value of $12.</li>
+				<li><b>Describe what methods, blocks, and classes, and objects are in Ruby</b>. <b>Methods</b> are saved block(s) of code that perform an action and usually require a value. <b>Blocks</b> are action-packed bits of code that begin with <b>do</b> and end with <b>end</b>.  <b>Classes</b> are packages of saved data like variables and methods.  <b>Objects</b> are like nouns: they can have verbs (methods) attached and/or attributes, like “CJ”(noun).length(verb) #==&gt; 2(attribute).</li>
+				<li><b>Use IRB to play with Ruby code (</b><b><em>HINT</em></b><b>: Type irb in your terminal and test your ability to do each of the aforementioned competencies)</b>. <b>irb</b> allows you to execute commands directly in terminal instead of saving a file elsewhere.</li>
+				<li><b>Debug syntax errors from error messages</b>. Important stuff: look for the line where the error is found (after the filename).  If you see a <b>^ </b>you’re in luck - this points to where a problem is seen.  ‘Fixnum’ usually points to an issue of strings and integers mixing it up.</li>
+			</ul>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  20 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/randocomp7.jpg" alt="">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Perfect Workflow in Sublime 2 ch. 1-3</h3><em><h4>August 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<h2><span style="color: #333333;">Tuts+'s <a href="http://courses.tutsplus.com/courses/perfect-workflow-in-sublime-text-2"> Perfect Workflow in Sublime Text 2</a> Chapters 1 &amp; 2.</span></h2>
+
+			Onward with DBC's pre-Phase 0 work!  Despite my first hand-holding and kissing-at-the-dance text-editor relationship with TextMate, I've gone on to seek true love with DBC's editor of choice: Sublime Text 2.  Maybe one day we'll be married.
+			<!--more-->
+			<p><b>Services and Opening Sublime From the Terminal
+			</b></p>
+			<ul>
+				<li>Automator.  Who knew that was there.  This little piece of magic has huge possibilities.</li>
+				<li>Typing <strong>!!</strong> in terminal references the last command you entered.</li>
+				<li>Thanks to this tutorial, I can now type <b>subl . </b>into terminal and pull up my text editor.</li>
+			</ul>
+			<p><b>Multiple Cursors and Incremental Search</b></p>
+			<ul>
+				<li><strong>Command F</strong> to find replace</li>
+				<li><strong>Command D</strong> will let you highlight the next sequential match, and replace them as needed.</li>
+				<li><strong>Ctrl Command G</strong> will select every occurrence of the word</li>
+				<li>Hold down <strong>option</strong> and drag to highlight just a column.</li>
+				<li><strong>Shift Command L</strong> will let you enter/adjust whole lines at a time.</li>
+				<li><strong>Command I</strong> to incremental search</li>
+			</ul>
+			<p><b>The Command Palette</b></p>
+			<ul>
+				<li><strong>Command N</strong> w/n Sublime to open new file.</li>
+				<li>Save a new file with the extension .rb, .js, whatever, and it will save as that file type.  Lower right hand corner allows you to change the syntax.</li>
+				<li><strong>Shift Command P</strong> is the command palette.</li>
+			</ul>
+			<p><b>Instant File Changing</b></p>
+			<ul>
+				<li><strong>Command P</strong> - go to anything.</li>
+			</ul>
+			<p><b>Symbols</b></p>
+			<ul>
+				<li><strong>Command R</strong> to search within a file, or <strong>Command P</strong> + enter<strong> @</strong></li>
+				<li>Jump into a new file at the desired spot by using <strong>Command P</strong>, enter name-of-file @ <strong>place</strong></li>
+			</ul>
+			<p><b>Key Bindings</b></p>
+			<ul>
+				<li><strong>ST2 &gt; Preferences &gt; Key Bindings Default</strong>: master list of commands.</li>
+				<li>“<strong>Super</strong>” = command in the code.</li>
+				<li>Never save edits in the default file (you’ll be overwritten upon update).</li>
+				<li>Save your edits in the <strong>Key Bindings USER file</strong>.  Watch for extraneous commas.</li>
+				<li><b>Question</b>: what will happen when I try to assign a shortcut sequence that is already in use?</li>
+			</ul>
+			<p><b>Installing Plugins Without Package Control</b></p>
+			<ul>
+				<li><strong>ST2 &gt; Preferences &gt; Browse Packages</strong>.</li>
+				<li>I added an alias to my bash profile called sublimepkg.  Now I can type this command into terminal, and voila, the package menu appears.</li>
+				<li>To install a package that is not available through package control, I can copy the read-only git address, browse to the packages directory, and type in a command to clone a version of the package to my packages directory.</li>
+			</ul>
+			<p><b>Package Control</b></p>
+			<ul>
+				<li>Download package control from w.bond.net.</li>
+				<li><strong>Shift Command P</strong> to navigate to install packages, choose package, done.</li>
+				<li><strong>Shift Command P</strong> is the almighty god of this universe.</li>
+			</ul>
+
+
+			<h2><span style="color: #333333;"> Tuts+’s</span><a href="http://courses.tutsplus.com/courses/perfect-workflow-in-sublime-text-2"> Perfect Workflow in Sublime Text 2</a><span style="color: #333333;"> Chapter 3.</span></h2>
+			<p><b>Your First Snippet</b></p>
+			<ul>
+				<ul>
+					<li>Holy shit, snippets!  The amazing-ness of nearly every tutorial I’ve done so far has been step 1. learn all these crazy things. 2. test that you know them. 3. now we teach you the looker-upper tool we hid from you earlier in case you need something not committed to memory.  Infinitely grateful for looker-uppers.</li>
+				</ul>
+			</ul>
+			<!--more-->
+			<ul>
+				<li>The prompts are equally mind-blowing (did not run into this in Textmate!).</li>
+				<li>Oh wait - you can create your own snippets, too.  Must have extension <strong>.sublime-snippet</strong> to work.</li>
+				<li>If you save your snippets in the folder of a language - the snippet will only work in that language.  I saved “Jamboree.sublime-snippet” in a new folder called “TestJavaScriptSnippets,” and it works only in JS, even though no source was specified in the file.</li>
+				<li>The snippet formula {1:thing} {2:thing} etc. indicates the “stopping points” a.k.a. where tab will take you.  The colon defines a default value.</li>
+				<li>When saving the cursor start-point, and that point needs no default value, it looks like ${1:} and ${1} both work.  In the video he uses ${1}.  Not sure if there is an advantage there.</li>
+				<li><b>Command / </b>toggles a line between live &amp; comment.</li>
+			</ul>
+			<p><b>Adding Snippets Through Package Control</b></p>
+			<ul>
+				<li>Snippets are apparently going to be my #1 time-saver in the future.  It goes like this: download your applicable pack, pay attention to the commands, use &amp; remember them religiously.</li>
+			</ul>
+			<p><b>Easier Testing With Snippets</b></p>
+			<ul>
+				<li>Package Control is not Kmart - they will not have everything.</li>
+				<li>In this video we found some desirable snippets on GitHub, copied the read-only url, hopped into terminal, navigated to the Packages Directory, then went into the Users directory.</li>
+				<li>From here we use the git clone (git clone url filename).</li>
+				<li>Once we have this new package of snippets, we can also save our own .sublime-snippets in there.</li>
+			</ul>
+			<span style="color: #333333;">CJ is headed to Dev Bootcamp in the Fall.  Here is her shameless plea for help: </span><strong style="color: #333333;"><a href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong>
+
+<div class="close">Close</div>
+		</div>
+		<!-- ***************  19 ***************************** -->
+		<!-- ***************  18 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/randocomp4.jpg" alt="computer">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Zed Shaw's Command Line ch. 1-23</h3><em><h4>July 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>This week's DBC pre-Phase 0 work kept me knee-deep in Zed A. Shaw's <a href="http://cli.learncodethehardway.org/book/">command line tutorial</a>.   Printed out a cheat sheet of the commands and breezed along through the first 7 chapters:</p>
+
+			<h2><p>Chapters 1-7 Takeaways:<!--more--></p></h2>
+			<ul>
+				<li>Command + spacebar brings up a search bar on a Mac.</li>
+				<li>When you’re changing directories (<strong>cd</strong>) using <strong>..</strong> will take you a level up. Using <strong>../../ </strong>etc. will take you up multiple levels.</li>
+				<li>If you’re lost, far away, or want to start fresh, type in <strong>cd</strong> (with nothing after it) to return to your home directory.</li>
+				<li>When  you are navigating through folder trees, just like <strong>../../</strong> will take you up levels, you can drill down by using specific names e.g. <strong>desktop/temp/things/stuff</strong>.</li>
+				<li><strong>rmdir</strong> only appears to work on files when you are in the parent directory of that file/folder.</li>
+				<li>After <strong>mkdir</strong> there’s a <strong>-p</strong>.  The <strong>-p</strong> tells terminal to fill in the blanks if the pathway does not already exist.  Props to <a href="http://en.wikipedia.org/wiki/Mkdir">Wikipedia’s entry on mkdir</a> for explaining this.</li>
+			</ul>
+			<p>Questions for later:</p>
+			<ul>
+				<li>When I was practicing deletions by wiping out a folder tree I made earlier in the command line, I was unable to delete several folders.  A check shows me nothing is inside them…</li>
+			</ul>
+
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a> Chapter 8<span style="color: #333333;">.</span></h2>
+
+			<p>This chapter gives you no blurb, just a jump right into “Do This.”  By the time I got through typing I was utterly lost.  Thankfully the explanation is at the bottom of the page.</p>
+
+			<p>Takeaways:<!--more--></p>
+			<ul>
+				<li><strong>pushd</strong> means “get the hell out of where I am, but keep it on standby because I might go back, and go to this new place I specified”</li>
+				<li>After you enter a <strong>pushd</strong> command, terminal tells you two things:</li>
+			</ul>
+			<strong>1.</strong>  ~your-new-location <strong>2.</strong> ~where-you-just-were-and-is-now-on-standby
+			<ul>
+				<li>If you pushd to a third location, you get:</li>
+			</ul>
+			<strong> 1.</strong> ~your-new-location <strong>2.</strong> ~where-you-just-were <strong>3.</strong> ~original-on-standby-location
+			<ul>
+				<li>From here I can enter <strong>popd</strong> to return to my last location, eliminating the new location from the on-standby list.  This is kind of like in Ruby where the “<strong>pop</strong>” command removes the last object from whatever string/collection you’re working with.</li>
+				<li>You can enter <strong>pushd</strong> without specifying a new location.  Doing so takes you to your most recent on-standby location.</li>
+				<li>I found out that if you have 3 standby locations loaded up, <strong>pushd</strong> with no location will cycle between the last and second-to-last places you’ve been (never gets back to your first standby location).</li>
+			</ul>
+			Questions for later:
+			<ul>
+				<li>If I’ve got 3 places loaded up on standby, how can I cycle back to the earliest one without using <strong>popd</strong> to remove the latest option?</li>
+			</ul>
+
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a><span style="color: #333333;"> </span>Chapters 9 &amp; 10.</h2>
+
+			Takeaways:
+			<ul>
+				<ul>
+					<li>Creating a new file = cake *ahem* I mean, <strong>touch</strong>.</li>
+				</ul>
+			</ul>
+			<!--more-->
+			<ul>
+				<li>Copying a file = really straightforward: <strong>cp</strong> filename new-filename.  Remember to enter the extensions (.txt, whatev).</li>
+				<li>Copying a file into a folder requires you to label the folder <strong>foldername/</strong> (with the forward slash on the end).</li>
+				<li>You can list the content of a subfolder, if you are in the parent folder, by using the <strong>filename/</strong> e.g. if I’m in temp, I can put <strong>ls stuff/</strong> to see what files are squirreled away in the stuff folder.</li>
+				<li>Wikipedia is the shit.  After fruitless googling on the “<strong>-r</strong>” in the <strong>cp -r</strong> command, I found the <a href="http://en.wikipedia.org/wiki/Cp_(Unix)">Wiki on cp </a>to clear it up.  The <strong>r</strong> is for recursive(ly).  Recursive is defined as mirroring something or repeating something in a similar way.  For my immediate purposes, this means I can copy a directory in the command line and I’m really copying the directory AND its contents.</li>
+				<li>You CAN copy files to places besides subfolders of the directory you’re in.  So we’re reusing the bits we learned in the <strong>cd</strong> lesson.  To copy a file to a parent, use <strong>../../</strong> with each set of dots representing one directory up.  To move down, use the names of the files <strong>stuff/things/toast</strong>.  You can also move up &amp; down to a lateral set, like:</li>
+			</ul>
+			cp awesome.txt ../../programs/mystuff/teststuff
+
+			Questions for later:
+			<ul>
+				<li>According to the <a href="http://www.st-andrews.ac.uk/ITS/training/unix/unix2.html.%20%20">link</a> that helped me sort this out, you can also copy a file from an outside directory to the one you’re in.  Following their instructions made some crazy shit pop up.  Guessing this is because this set of instructions is for unix not Mac...but we’ll see…</li>
+			</ul>
+			
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a><span style="color: #333333;"> Chapters 11- 15.</span></h2>
+
+			Chapter 11, 12 13<!--more-->
+			<ul>
+				<li><strong>Mv</strong> seems to be the same as ‘<em>rename</em>’ not '<em>move</em>.'  Scrolled to Zed’s notes as shazam!  Got that one right.</li>
+				<li>The <strong>less</strong> command loads the file contents into terminal - but away from your command line business.  Scroll up/down as necessary.  <strong>q</strong> to quit.</li>
+				<li>I tried displaying a file without typing in the extension - this did not work.  Remember the extension.</li>
+				<li>The <strong>cat</strong> command loads the content of a file and spews it into the command line.  Not as pretty as using the <strong>less</strong> command.</li>
+			</ul>
+			Chapter 14
+			<ul>
+				<li>Removing a file - <strong>rm</strong> - pretty simple.</li>
+				<li><strong>rmdir</strong> will remove a directory <em>unless</em> stuff is inside.</li>
+				<li><strong>rm directoryname/filename.extension</strong> only removes the file.</li>
+				<li><strong>rm -rf directoryname</strong> appears to delete the directory and all its content.</li>
+			</ul>
+			Question for later: What does the <strong>-rf</strong> stand for?  root filesystem?
+
+			Chapter 15
+			<ul>
+				<li>Apparently this guy is called a pipe: <strong>|</strong>.</li>
+				<li>This reads linearly, so anything happening on the left is “piped” over to the command on the right.</li>
+				<li>The trick to using <strong>&lt;</strong> and <strong>&gt;</strong> in command line is remembering direction.  My mnemonic device for this one: go big or go home.  Always start with the “larger than” side.</li>
+				<li>If you are copying text into a new file the destination file does not have to exist.  Simply type <strong>less existingfile.extension &gt; newfilename.extension</strong>.</li>
+			</ul>
+			The mirror image of Ruby’s array ‘smoosh’ symbol has appeared.  The <strong>&gt;&gt;</strong> will append data from the left to the right.  This requires a command to work though: <b>less ex12.txt &gt;&gt; ex15.txt</b> will work but <b>ex12.txt &gt;&gt; ex15.txt </b>will not.
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a><span style="color: #333333;"> Chapter 16 &amp; 17.</span></h2>
+			<ul>
+				<ul>
+					<li>I feel extraordinarily lucky that I’ve spent years in a system that used as asterisk as a wildcard.  “Asterisk = wildcard” lives deep in my bones.</li>
+				</ul>
+			</ul>
+			<!--more-->
+			<ul>
+				<li>Unlike the wildcard-friendly app I’ve used, command line’s <strong>*</strong> can be used at the beginning of a word, can represent multiple characters, and can be used mid-word.</li>
+				<li>You can search for things using <b>find . </b>where *I think* the period is saying ‘within the current directory &amp; its subfolders.’</li>
+				<li>The find command should be 1. <b>find</b> 2. where-to-look 3. <em>criteria</em> 4. what-to-do.  Props to this <a href="http://content.hccfl.edu/pollock/unix/findcmd.htm">link</a> for the explanation.</li>
+				<li>You can replace the period with the name or path to a specific directory, in which case only that directory &amp; its content will be searched.</li>
+				<li>You can also use the<strong> ../../</strong> trick to move up the tree, and/or specify additional folders to target a lateral destination.</li>
+			</ul>
+			<p>Questions for later:</p>
+			<ul>
+				<li>What do <strong>-name</strong> and <strong>-print</strong> need the dash?</li>
+			</ul>
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a><span style="color: #333333;"> Chapter 18 </span><span style="color: #333333;">.</span></h2>
+			<ul>
+				<ul>
+					<li>Write to a new file using <strong>cat &gt; a-file-you-create-by-typing-it-here.extension</strong>.</li>
+				</ul>
+			</ul>
+			<!--more-->
+			<ul>
+				<li><strong>Ctrl + d</strong> is your escape once you’ve typed in all the text you want to go into the file.
+					<ul>
+						<li><strong>Command + d</strong> did some wacky split-screen stuff that will probably be handy down the line.  <strong>Control</strong>, don’t command, your <strong>Cats</strong>.</li>
+						<li>Also, you need to be on a new clean line before you hit <strong>Ctrl + d</strong>, otherwise some other wacky stuff happens.</li>
+					</ul>
+				</li>
+				<li>The <strong>grep</strong> command searches the content of files.  The formula is <strong>1. grep 2. word-you-want-searched-or-phrase-in-quotes 3. file(s)-to-search.</strong></li>
+				<li>When entering files-to-search you can use a wildcard <strong>*</strong> to search or just list out all the files you want searched.</li>
+				<li>If you want to search within a file outside the directory you’re in, you type in the folder tree before the filename, like <strong>desktop/temp/newestfile.txt</strong>.</li>
+			</ul>
+			Questions for later:
+			<ul>
+				<li>What is the purpose of the <strong>Command + d </strong>split screen?  Why/how would someone use this?</li>
+				<li>When I <strong>ctrl + d</strong> on a non-empty line of text, what is that business about?</li>
+			</ul>
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a><span style="color: #333333;"> Chapter 19.</span></h2><!--more-->
+
+			<em>Dear Zed, no offense taken.  I appreciate the trick - it got me to learn way more.</em>
+			<ul>
+				<li>So a handy <b>man </b>command will bring up a reference page of what that command does.</li>
+				<li>I anticipate one day I’ll need the inverse of this, like, “what the hell is the command that does that search-through-it-backwards-thing?”</li>
+				<li>I found that the <b>dash-letter</b> combos like the <b>-L </b>and <b>-P</b> in the screenshot below work if you put them in brackets after the command, like <strong>$ pwd [-p]</strong> .<img class="imgs16" src="blogImgs/clch19.png" alt="terminal"/></li>
+			</ul>
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a><span style="color: #333333;"> Chapter 20, 21 &amp; 22</span></h2>
+
+			Chapter 20
+			<ul>
+				<ul>
+					<li>Holy word vomit, Batman.  Ever had a cat fall asleep on your keyboard when you got up and left the room?  Yeah, <b>apropos </b>command is kind of like that.</li>
+				</ul>
+			</ul>
+			<!--more-->
+			<ul>
+				<li>As heart-palpitating as the results of using <strong>apropos</strong> are, this unwieldy cache of data will be doubtlessly be useful once I’m weeks out from drilling vocab.</li>
+			</ul>
+			&nbsp;
+
+			<p>Chapter 21 &amp; 22</p>
+
+			<p>Ugh.  So much info.  I’m not sure what is important. Here’s where I am:</p>
+			<ul>
+				<li>The <strong>PATH</strong> is something you can check out to determine... where to save stuff?</li>
+				<li>Sometimes you may need to change the path to... change how other stuff works?</li>
+				<li>I found <a href="http://hathaway.cc/post/69201163472/how-to-edit-your-path-environment-variables-on-mac-os-x">this page</a> that rather succinctly goes over the steps to change path.</li>
+				<li>I think I've rounded up all the variables within <strong>env</strong>.  Definitions below:
+					<ul>
+						<li><strong>rvm_bin_path</strong>=  The Ruby Version Manager and where it lives.</li>
+						<li><strong>TERM_PROGRAM</strong>= The name of your terminal.  Perhaps the default program that brings up terminal?</li>
+						<li><strong>GEM_HOME</strong>= The default place where gems will be installed.  Also where Ruby will look for gems.</li>
+						<li><strong>SHELL</strong>= The “shell” is outermost layer of a program, that connects with the user, taking commands from them and delivering the commands to the operating system.</li>
+						<li><strong>TERM</strong>= not sure - the thing that gives you access to terminal?  Googling “xterm-256color” lead me to a lot of color wheels...</li>
+						<li><strong>IRBRC</strong>= Something about “interactive ruby.”</li>
+						<li><strong>TMPDIR</strong>= temporary directory.  The home of your scratch paper.</li>
+						<li><strong>Apple_PubSub_Socket_Render</strong>= a back-end piece for how RSS feeds are handled.</li>
+						<li><strong>TERM_PROGRAM_VERSION</strong>= The version of TERM_PROGRAM.</li>
+						<li><strong>MY_RUBY_HOME</strong>= The path to your Ruby files.</li>
+						<li><strong>TERM_SESSION_ID</strong>= Not a lot online about what session-ID is in regards to terminal. It appears to be temporarily saving something.</li>
+						<li><strong>USER</strong>= identifies the current user.</li>
+						<li><strong>_system_type</strong>= the computer operating system</li>
+						<li><strong>rvm_path</strong>= path to the Ruby Version Manager</li>
+						<li><strong>SSH_AUTH_SOCK</strong>= SSH is secure shell.  This deal keeps things secure and allows you to remote in.  Auth = authenticate.  Sock = socket or socks? Socks are troubleshooting and cleaner-upper utilities.  Sockets are something about transferring packets of data around.</li>
+						<li><strong>__CF_USER_TEXT_ENCODING</strong>= save of the preferred language and ‘text encoding’ which is something to do with text representing other things.</li>
+						<li><strong>rvm_prefix=</strong> The pathway to get to the RVM i.e. Users/yourusername/</li>
+						<li><strong>PATH=</strong> There are so many online resources about working with PATH but nothing that just tells me what the hell it is.</li>
+						<li><strong>__CHECKFIX1436934</strong>= Don’t know - but I’m #17 on the Apple forums to say “I have this problem, too” re: what the hell is this?</li>
+						<li><strong>PWD=</strong> print working directory.</li>
+						<li><strong>LANG=</strong> language used.</li>
+						<li><strong>_system_arch</strong>= just can’t figure it out.</li>
+						<li><strong>_system_version</strong>= version of your operating system.</li>
+						<li><strong>rvm_version</strong>= version of Ruby used.</li>
+						<li><strong>SHLVL</strong>= identifies the “sub-shell” level.</li>
+						<li><strong>HOME</strong>= home directory upon logging in.</li>
+						<li><strong>LOGNAME</strong>= username?</li>
+						<li><strong>GEM_PATH</strong>= Path to your Ruby gems.</li>
+						<li><strong>_system_name</strong>= name of your operating system.</li>
+						<li><strong>_=/usr/bin/env</strong> the last command displayed.</li>
+					</ul>
+				</li>
+			</ul>
+
+			<p>Questions for later:</p>
+
+
+			<ul>
+				<li>Derp.  All of the above.</li>
+				<li>Why does someone need to check the <strong>env</strong>?</li>
+				<li>Why would someone want to change a <strong>path</strong>?</li>
+				<li>Wouldn’t changing a <strong>path</strong> potentially screw up existing programs and operations?</li>
+				<li>As for changing <strong>path</strong> - what is important?  What do I need to commit to memory?</li>
+				<li>WTF is the <b>man env</b> page talking about?.</li>
+			</ul>
+			<h2><span style="color: #333333;">Zed A. Shaw’s </span><a href="http://cli.learncodethehardway.org/book/">command line tutorial</a><span style="color: #333333;"> Chapter 23.</span></h2>
+
+			I liked that Johnny Depp movie <em>Secret Window</em> the first time I saw it...when it was called <em>Fight Club</em>.  <!--more-->The end of the Command Line Crash Course filled me with the same disappointment.  We went strong for 22 chapters and the end felt phoned in, like, “Meh.  Here’s some stuff you should know.  Go look it up.”  Anyway:
+
+			Definitions:
+			<ul>
+				<li><b>xargs </b>(1 hour for fruitless Googling later). Jesus tap dancing Christ.  Something about if you want the data you’re entering to be accepted as an argument instead of a command.</li>
+				<li><b>sudo </b>taking on the power of the super-user/admin to run programs.  Potential to create real damage lies here.</li>
+				<li><strong>chmod</strong> “change mode.”  How you can change permissions on something.</li>
+				<li><b>chown </b>“change owner.”  How you can alter the ownership of something.</li>
+			</ul>
+			<span style="color: #333333;">CJ is headed to Dev Bootcamp in the Fall.  Here is her shameless plea for help: </span><strong style="color: #333333;"><a href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  11 - 17 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/health.jpg" alt="food">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Health: More Advice You Shouldn't Trust</h3><em><h4>May 2015</h4></em>
+		</div>
+		<div class="invisible content">
+			<p>It’s impossible to get your life on track without feeling better.  We start today with food.</p>
+
+			<p><em>Disclaimer: I’m not a doctor.  I’m not a dietician. I speak only from experience and your results will differ.</em></p>
+
+			<p>Eating healthy can be hard. And expensive. And time consuming. And inconvenient.  And socially awkward.  Here’s the deal: if you don’t take care of your body first, everything else will fail.  So let’s go: <!--more--></p>
+
+			<p>I spent time as a vegetarian/vegan for almost a decade.  I was righteous as fuck about how I was doing the right thing for my health and the planet for all 8 of those years.  Now that I’ve swung over to the primal/paleo/WAP after a digestive/immunity issue I’ve found the familiar camp of authorities, persuasive bloggers, and people throwing out their heart-felt pleas that only if their relative/friend/co-worker would eat the way they eat all the problems in this world would evaporate.</p>
+
+			<img class="imgs11" src="blogImgs/11_1.png" alt="diets"  /></a>
+
+			<p>My recommendation is to follow the diet you prefer in the green area, with these key additions:</p>
+			<ul>
+				<li>If it comes in a box, bag, tin, or from a factory don’t eat it.  Don’t eat sugar.  A little honey is okay.</li>
+				<li>Eat a lot of vegetables.  Eat some of them raw.  Also eat some fruit.  Eat nuts and seeds, but not a lot.  Use herbs and spices - but read labels - garbage gets thrown in everywhere.</li>
+				<li>Once you stop eating packaged foods you may miss out on the foods fortified with vitamins/minerals once common to our diet.  Suggestions:
+					<ul>
+						<li>Eat a few brazil nuts a day for selenium.</li>
+						<li>Eat a little seaweed to maintain iodine levels.</li>
+						<li>Take cod liver oil and/or vitamin D pills.</li>
+						<li>Take K2 along with vitamin D.</li>
+						<li>Take B12 if you don’t eat animals.</li>
+					</ul>
+				</li>
+				<li>Drink the cleanest water you can get your hands on.</li>
+				<li>Avoid GMOs.</li>
+				<li>The more carbs you eat the more fucked up your blood sugar is going to be.  150 grams a day or less is ideal.</li>
+				<li>Limit caffeine.  1 cup of coffee a day or two cups of caffeinated tea.</li>
+				<li>Eat fermented foods - lots of them.</li>
+				<li>Eat enough protein.  Once you start strength training you need to hit 1 gram of protein per pound of bodyweight, per day.</li>
+				<li>Eat fat.  Pay attention to what kind you ingest.  Studies show most olive oil is rancid.  Avoid oils made from grains. Read here for recommendations.</li>
+				<li>All the ways grains can damage your digestive tract also damage the innards of the animals you eat.  Avoid eating sick animals.  Eat pastured eggs, grass-fed ruminants, chickens that eat bugs.</li>
+				<li>Eat enough calories in a day.</li>
+				<li>If you have digestion issues - eat 3 meals a day, spaced at least 4 hours apart, to allow your migrating motor complex to cleanse your digestive tract.</li>
+				<li>If you have a uterus, <a href="http://www.dr-kristy.com/balancing-hormones-with-seed-clycling/">seed cycle</a>.</li>
+				<li>Fasting allows your body to purge broken shit, bad cells, carcinogens, etc.
+					<ul>
+						<li>Do this at least 1x a quarter.</li>
+						<li>Stop eating after dinner the night before and resume eating with dinner the next day.</li>
+						<li>If you have health issues, periodically try 3-day fasts.</li>
+					</ul>
+				</li>
+				<li>Eat grains (rice, wheat, oats, etc.) sparingly if at all..</li>
+				<li>Get an allergy test if you don’t feel right or you have digestion issues.  Do not eat foods that come back on your tests as an allergy or even a sensitivity.</li>
+				<li>If you cannot stick to eating healthy because of social reasons, will-power, [insert excuse here] give yourself a ‘cheat day’ with two freebie meals.  Do not eat foods you are allergic to in these cheat meals.</li>
+				<li>If you eat animals, make bone broth.  Drink it regularly.</li>
+				<li>If your moods are not right - <a href="http://www.amazon.com/The-Mood-Cure-Program-Emotions--Today/dp/0142003646/ref=sr_1_1?ie=UTF8&amp;qid=1404431312&amp;sr=8-1&amp;keywords=mood+cure">read this book</a> (down not align with vegan/vegetarian path).</li>
+				<li>Most doctors prescribe drugs to treat symptoms not causes. Many drugs can cause damage elsewhere.  Try naturopaths who treat problems without synthetic drugs.</li>
+				<li>What you eat is not who you are.  Do not be an asshole to people who do not eat like you.  Do not push your diet on other people.  Answer questions if people ask.  Don’t use that as an opportunity to sell your diet to someone else.  If and when they want to get on board they’ll come to you.</li>
+				<li>Do the best you can.  Know that is enough.  Try harder next time.  Don’t stress on the rest.</li>
+			</ul>
+			<p>Shameless plea for help: <strong><a href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  10 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/think.jpg" alt="thinkpic">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">How Do You Think<span class="q">?</span></h3><em><h4>July 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>What’s under the <del>hood</del> skull?  Part III.</p>
+
+			<p>The third part of DBC’s Personal Prep section works on <a href="http://www.thelearningweb.net/personalthink.html">identifying your "cognitive style</a>," a.k.a. how you think, based on 4 styles: <!--more--></p>
+			<ul>
+				<li><b>Concrete Sequential </b>practical people who do best in a structured environment that’s  A-Z, orderly, and linear.  Everything has a right/wrong.</li>
+				<li><b>Concrete Random </b>curious risk-takers who learn by experimenting.</li>
+				<li><b>Abstract Random </b>from-the-heart-people-persons who do better without structure but require emotional support.</li>
+				<li><b>Abstract Sequential </b>people who thrive with research, resources, a thorough explanation of ‘why,’ and the opportunity to work alone.</li>
+			</ul>
+			<p>My results were overwhelmingly in the Concrete Random camp, meaning I’m competitive, self-directed, hands-on, rarely accept outside authority, vehemently strong-willed, and above all want to cut through the shit to get to the point.  Yep, all true.</p>
+
+			<p>From a <a href="http://mostillustriousmother.blogspot.com/2013/04/the-concrete-random.html">blog post for parents</a> of CR children I found these two gems:</p>
+			<ul>
+				<li><em>“If I lay down a rule, he automatically wants to know the consequence.  His brain starts running scenarios with loopholes. And then, he's going to measure if suffering the consequence is worth breaking the rule IF he doesn't like the rule.  If it's a good rule (as evaluated by him) he'll follow, no problem.”</em></li>
+			</ul>
+			<ul>
+				<ul>
+					<ul>
+						<li>This pretty much covers every conversation I’ve ever had with my boss.  I also feel a sudden urge to call my mother and apologize.</li>
+					</ul>
+				</ul>
+			</ul>
+			<ul>
+				<li><em>“...teach him to spot self-serving, exploitative types who might pick up on this trait and use it to control your CR. Example:  "You (adult sales CR guy), I'll bet you couldn't land that account." Then your CR spends less and less time with wife and kids becoming a workaholic to try to prove him wrong.  The CR kid needs to know that this trait can be wrongly used to lock him down and jack up his life.”</em></li>
+			</ul>
+			<ul>
+				<ul>
+					<li>Certainly something I wish I learned earlier in life having fallen victim here.</li>
+				</ul>
+			</ul>
+			<img class="imgs10" src="blogImgs/10_1.png" alt="chart_concrete_random" />
+
+			<p>This exercise reminds me of this recent article on motivation that posits people have two types of goal <a href="https://www.themuse.com/advice/5-ways-to-motivate-yourself-and-everyone-around-you?utm_content=bufferc0a26&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer">orientation</a>:</p>
+			<ul>
+				<li><b>mastery orientation</b>: motivation through the challenge of learning something new.</li>
+				<li><b>performance orientation</b>: using existing skills to strive for excellence.</li>
+			</ul>
+			<p>As someone continually experimenting with something (this week it’s K2 supplements &amp; driftwood coat racks) I fundamentally have trouble understanding what being performance oriented <em>feels</em> like.  Mainly because excelling at one thing strikes me as profoundly boring and opportunity-limiting; I’d rather be proficient in several languages than a master at one.  Probably the reason coding appeals to me: I know I will never be one of the all-time great masters of Ruby, but I will keep chasing languages to add to my toolbox.</p>
+
+			<p>Overall I wish I had come across these profiling exercises earlier in my career (or at least before my office’s layoff came down).  It would have been enlightening to see what results my team had and what I could have done more effectively to teach/inspire/lead them.</p>
+
+			<p>Shameless plea for help: <strong><a href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  9 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/learn.jpg" alt="learnpic">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">How Do You Learn<span class="q">?</span></h3><em><h4>June 2014</h4></em>
+		</div>
+		<div class="invisible content">
+			
+			<p>What’s under the <del>hood</del> skull? Part II. <!--more--></p>
+
+			<p>Getting our VARK on.  A few decades ago when Three Dog Night was looping endlessly on FM radio, a handful of researchers and headshrinkers started rolling out theories on how people learn.  VARK is an acronym that stands for a person’s inherently preferred learning style:</p>
+			<ol>
+				<li><a href="http://en.wikipedia.org/wiki/Visual_learning">visual learners</a>;</li>
+				<li><a href="http://en.wikipedia.org/wiki/Auditory_learning">auditory learners</a>;</li>
+				<li><a href="http://en.wikipedia.org/w/index.php?title=Reading-writing_preference_learners&amp;action=edit&amp;redlink=1">reading-writing preference learners</a>;</li>
+				<li><a href="http://en.wikipedia.org/wiki/Kinesthetic_learning">kinesthetic learners</a></li>
+			</ol>
+			<p>The <a href="http://www.vark-learn.com/english/page.asp?p=questionnaire">DBC prescribed quiz tells me</a>: You have a mild Read/Write learning preference.  I’m assuming this is why I am deeply enamored with Zed A. Shaw’s suggestions in <a href="http://learncodethehardway.org/">learncodethehardway</a> to <strong>write. everything. down</strong>. and study it.  This also rings true considering my deep desire to bullet point everything.</p>
+
+			<p>My results:</p>
+			<ul>
+				<li>Visual: 3</li>
+				<li>Aural: 2</li>
+				<li>Read/Write: 7</li>
+				<li>Kinesthetic: 4</li>
+			</ul>
+			<p>Shameless plea for help: <strong><a href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  8 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/gear.jpg" alt="gears">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Fixed vs. Growth Mindset</h3><em><h4>May 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>What’s under the <del>hood</del> skull?  Part I.</p>
+
+			<p>Before DBC students jump into Phase 0 there’s a prep work to be done, and to my joy, it’s more than just installing software.  I found the pre-work to-dos online before I was accepted so I suspect I’m okay to post about it.  Here we go: <!--more--></p>
+
+			<p>Understanding facets of ourselves, like how we learn, what we think is important/normal/reasonable, and how we perceive all help us get out of our own way when we’re striving towards a goal or trying to connect with someone.</p>
+
+			<p><a href="http://michaelgr.com/2007/04/15/fixed-mindset-vs-growth-mindset-which-one-are-you/">This article</a> provides a tidy summary of a Fixed vs. Growth mindset.</p>
+
+			<p>Here’s a secret: My mind generates snap judgements when someone says, “Well, that’s just the way it is.”  If a person has ever said this in an interview with me, they did not get the job.  If someone said this in a meeting we’d spend a long time talking about why.  It shows resignation to powerlessness.  Unwillingness to find another way.  Pessimism.  Fear.</p>
+
+			<p>“That’s just the way it is,” is the mantra of the “fixed” mindset.  It reminds me of a trick I’d use when delegating to someone who did not seem keen on the task.  I’d ask, “do you think it’s possible we can XYZ?" (meet this goal, make this widget, effect this change, whatever).  The conversation that ensued usually turned things around.  Henry Ford was on target when he said, “Whether you think you can or whether you think you can't, you're right”</p>
+
+			<p>If you think you’re going to fail, you’ve let yourself off the hook when you do.  If you think you can’t achieve something because “that’s just the way it is,” you won’t.  If you believe are just a [fill in the blank] kind of person, then you will not change.   At some point everyone will try and fail, but the people who believe in possibility will get back up and try again.</p>
+
+			<p>The good news, is of course, that our brains, our thought process, our perceptions, and our reality is all malleable.  If you think you can, you probably will, but not always immediately, and sometimes only with a hell of a lot of hard work, pain, blues, and agony.</p>
+
+			<p>Shameless plea for help: <strong><a href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  9 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/books.jpg" alt="books">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Newbie tips for learning Ruby</h3><em><h4>May 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+
+				<ul style="color: #000000;">
+					<li>Just start.  Don’t spend a lot of time figuring out the best book or tutorial - just begin somewhere.</li>
+					<li>What worked for someone else may not work for you.  That’s okay.</li>
+					<li>Take notes as you go.  There are studies that show writing out things by hand is better for retention. Make 3 lists:</li>
+				</ul>
+
+			<!--more-->
+			<ul>
+			<ol style="color: #000000;">
+				<li><strong>Stuff you learn</strong>: write down key concepts in your own words.</li>
+				<li><strong>Mistakes</strong>: write down every mistake you made and what you should have done differently.</li>
+				<li><strong>Roadblocks</strong>: if you are stuck write it down.  Spell out what you don’t understand.</li>
+			</ol>
+		</ul>
+			<ul style="color: #000000;">
+				<li>Come up with a list of books and tutorials that look good.  When you get stuck on one, move to the next.</li>
+				<li>Set aside time to review your notes.  Review the problems you are stuck on every day.  It’s okay if the answers still don’t come.  Trust they will.</li>
+				<li>Once you feel that you are starting to pick it up, go back to the tutorials you stalled on earlier.</li>
+				<li>Try online quizzes for practice.</li>
+				<li>Find someone who knows Ruby (friend of a friend, person at work, someone with a blog).  See if they can spare 5 minutes to help you through the really tough problems.</li>
+			</ul>
+			<p style="color: #000000;">Places to start:</p>
+
+			<ul style="color: #000000;">
+				<li><a style="color: #555555;" href="https://www.codecademy.com/" target="_blank">Codeacademy’s </a>Ruby track</li>
+				<li><a style="color: #555555;" href="https://ruby.learncodethehardway.org/" target="_blank">Learn Ruby the Hard Way</a></li>
+				<li><a style="color: #555555;" href="https://www.rubykoans.com/" target="_blank">Ruby Koans</a></li>
+				<li><a style="color: #555555;" href="https://pine.fm/LearnToProgram" target="_blank">Chris Pine’s Learn to Program</a></li>
+				<li><a style="color: #555555;" href="https://coderbyte.com/CodingArea/Challenges/" target="_blank">Coderbyte Challenges</a></li>
+			</ul>
+			<p style="color: #000000;">Shameless plea for help: <strong><a style="color: #555555;" href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  7 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/weirdo.jpg" alt="weirdo">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">March to the beat of your own drum.  <br>Your career depends on it.</h3><em><h4>April 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>You wanna get hired, move ahead, and make real money?  One of the first things you need to do is get noticed.  Here’s the formula:<!--more--></p>
+			<ol>
+				<li>Be different.</li>
+				<li>Be memorable.</li>
+				<li>Do something.</li>
+			</ol>
+			<p>Today we start with #1.  <b>Be different</b> (in a good way).</p>
+
+			<p>Check out this picture: Bay Area software company circa 2009:</p>
+
+			<img class="imgs7" src="blogImgs/cj09.jpg"/>
+
+			<p>That’s me.  Standing behind the stand-up desk I MacGyver-ed, 20-days deep into a raw-foods experiment with a green smoothie in-hand.  The boxes in the foreground are filled with double-chocolate espresso cupcakes for the office bake-off.  Oh yeah - and those cupcakes?  They’re vegan.</p>
+
+			<p>Who is this weirdo, right?  Answer: your boss in the corner office.  And all that stand-up desk, vegan cupcake, green-smoothie crap that makes me weird?  It also made me memorable.</p>
+
+			<p>Here’s the deal: in school you get an A if you hand in a decent paper.  Hell, you may even got an A for effort.  Too bad the real world has zero use for yet another paper on the Bronte sisters.  Do a good job, turn your shit in on time, and maybe, just maybe, you’ll qualify for that 3% ‘cost of living’ raise.  Sound familiar? (A “raise” which in no way keeps up with your actual cost of living - more on that later).</p>
+
+			<p>Screw that.  If you want to earn big bucks like a manager, you have to start acting like one.  80% of recent grads I’ve coached are terrified to be themselves <em>at work</em>.  Why?</p>
+
+			<p>Being themselves can mean being difference. Being different is hard.  It attracts attention. You might have to defend your actions. There’s a huge stress response that comes along with deviating from the crowd.  The caveman bits of your brain that want to keep you alive long enough to reproduce are master risk assessors.  And social shit carries A LOT of risk.  Like:</p>
+			<ul>
+				<li><em>What if people don’t like me?</em></li>
+				<li><em>What if I offend people?</em></li>
+				<li><em>What if I get ousted from my caveman tribe </em>(and its access to food, sex, and comfort)<em>?</em></li>
+			</ul>
+			<p>Let’s fast forward 40,000 years.  What’s the common thread in the three sentences above? I, I, I.  Me, me, me.  The truth is nobody cares.  Generally, no one will notice what you wear, what you say, or what you do, until you do something big enough to break through the dialogue in <em>their head</em>.  Hint: inside the brains of the people around you is yet another unending stream of, “I, I, I, me, me, me.”  Test it.  Start dressing a little more like a pirate each day.  My money’s on you getting to eyepatches &amp; parrots before anyone says a thing.</p>
+
+			<p>Sure, if you do your own thing, people will think you’re weird.  Own it.  And know how to spin it.  This is practice for making the big bucks.  In leadership roles people will question every decision you make.  Get used to explaining why what you’re doing is awesome.</p>
+			<ul>
+				<li>That stand-up desk in the pic above generated a lot of questions.  Generally people were curious.  I told them about some scary articles I saw on sitting + early death so I was trying something new.</li>
+				<li>Not everyone was curious, though.  Some people seemed downright offended.  I even had a guy stroll in just to bet me a lunch that I’d be back on my butt in under a month.</li>
+				<li>What the hell is up with naysayers, anyway?  Remember, everyone else is so caught up with , “I, I, I, me, me, me,” that what the haters say has nothing to do with you.  Your strides towards doing something cool and different only irks them because they're afraid of change, they're afraid to do something different themselves, or what your doing made them to reflect on their own insecurities.</li>
+				<li>By the way, that free lunch was awesome, and 3 years later ⅓ of my office had converted their desks to stand-up.</li>
+			</ul>
+			<p>Warning: You want to be memorable, but only in a good way.  Ask yourself: does the cool thing I’m doing have the potential to make you look like an insensitive jackass?  if so, keep it out of the office.  Really proud of your 70s porn collection?  That <em>Deep Throat </em>poster in your cube might make you a badass amongst the back-end developer crew, but your boss who stays up late night anguishing about keeping his daughter off the pole has written you off.</p>
+
+			<p>Bottom line: People who do a good job don’t get promoted. People who do a good job AND stand apart from the crowd, do.  Think about it.  If you were some tech company CEO, who do you want designing your landing page?  The dude who plays it safe and hands over what looks like everybody else’s stuff? Or the guy that already has a different way of doing things?</p>
+			<p>CJ is headed to school in the Fall.  Shameless plea for help: <strong><a href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  6 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/tips.jpg" alt="win">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Tips for Coding School Applications</h3><em><h4>April 2014</h4></em>
+		</div>
+		<div class="invisible content">
+			<p>First off, who the hell am I to give you tips?  I made it to 2nd round interviews at one SF coding camp before changing gears with an acceptance at my 1st choice school. Let’s go:</p>
+			<!--more-->
+			<ul style="color: #000000;">
+				<li>Don’t rush it.</li>
+				<li>Figure out what is important to you before you even research schools. Community? Employ-ability? Brand recognition? Post-graduation resources?  Write down your wants.</li>
+				<li>Take your list of wants and divide them into requirements or nice-to-haves.  Write out <em>why</em> they fall into which category.</li>
+				<li>Research, research, research.  Read every page of a coding school’s website.  Read every blog, twitter, etc. you can find from former/current students and teachers.</li>
+				<li>While you research take notes.  Start a page for each school and a page for general stuff.  Write down every question that comes to mind.  Write down any emotional thing that comes up.  Write down every worry, fear, or concern.</li>
+				<li>Take notes on what qualities these schools want in their students.</li>
+				<li>Find people who went to these schools. Ask questions you’ve written down if<em>not already answered on their blogs</em>. Check LinkedIn - do you have a connection to someone you can contact?  If not, use student blogs or twitter to connect.</li>
+				<li>Follow your target schools on twitter, LinkedIn, Facebook, etc.  If you are not socially online, join.  Show that you are interested.</li>
+				<li>Applications for most coding schools look relaxed.  This does not mean you can fill them in half-assed.  Don’t rush it.</li>
+				<li>Search around for applications from former students.  Read what they wrote.  Think about why they got accepted.  Write down your thoughts.</li>
+				<li>Think it’s hopeless because you’re inexperienced, too old, not smart, awkward, or [insert insecurity here]?  Tell that inner voice to shut the fuck up.  Those thoughts are not useful.  Move on.</li>
+				<li>What stories do you have that show your bootcamp you have the qualities they look for?  Think about how to tell stories (written &amp; verbally) that show you in a great light.</li>
+				<li>Know <em>why</em> you want to go to school and be able to articulate this.</li>
+				<li>Think about how to answer open-ended questions like “Tell me about yourself.”</li>
+				<li>Fill in your applications slowly.  Take a whole day to work through one section. Don’t rush it.</li>
+				<li>Read your answer out loud.  This will help you find grammatical issues and improve flow.</li>
+				<li>Be honest. Be earnest. Be interesting.  Be memorable.</li>
+				<li>Do not be negative or judgmental.  Only showcase the bad shit if it somehow ties into something showing your rockstar-ness.</li>
+				<li>Never be a pain in the ass.</li>
+				<li>Ask other people to read your application.  Be gracious for their feedback even if you think it sucks.  Ask them what qualities your application showcases, if it’s interesting, and if they know something about you they think should be included.</li>
+				<li>Do all the optional parts of application (videos, problem-solving, etc.).  Yes, seriously.  Show that you mean it.</li>
+				<li>When you have completed your application, do not send it.  Read it 2x a day for a week.  Read it out loud.  Take notes on your thoughts.  Every answer must pop.</li>
+				<li>Send your application when it is ready, not when you are exhausted.</li>
+				<li>Assume the people seeing your application are bored out of their skulls by reading dry and humorless applications all day.  Give them something good to read.</li>
+				<li>Know how long it will take to understand the prep-work before you schedule an interview.  Expect to get fully stumped along the way.  This is not an excuse to stop.  Generously pad your estimates.  Know the prep-work cold.  Even if it’s optional.</li>
+				<li>Advanced: have you found instructors who seem interesting?  Do they do cool stuff somewhere else (blog, MeetUp group, nonprofit)? Start a conversation.  Let them know you think X about their cool Y.  Ask them questions with genuine interest about their project.  If you forge a connection you may find a champion for your cause.</li>
+			</ul>
+			<p style="color: #000000;">Did you just say, “<em>Shit. We haven’t even gotten to the post on interviews yet?!?</em>"  That’s good.  You read, "<em>Don’t rush it</em>,” three times for a reason.  I know you’re excited.  Don’t blow it.  This is a marathon not a sprint.  Obstacles show us how bad we want something.  How bad do you want it?</p>
+			<p style="color: #000000;">Shameless plea for help: <strong><a style="color: #555555;" href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  5 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/construction.jpg" alt="construction">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Why Code School<span class="q">?</span></h3><em><h4>April 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>The quick &amp; dirty list:</p>
+			<!--more-->
+			<ul style="color: #000000;">
+				<li>I am a creator of things*  (including footnotes).</li>
+				<li>Spending years in a job that was 80% solving problems &amp; 20% creativity taught me: my happiness can be found in flipping that ratio.</li>
+				<li>I love puzzles. I have not finished <em>Portal 2</em> or <em>Warp</em> because I have been savoring them.  <em>For</em> <strong><em>years</em></strong>.  I will go back through and play from the beginning, just to build up excitement and ration every last delicious morsel of starting a new level.**</li>
+				<li>Ruby stretches my taffy-brain into complex and useful shapes.</li>
+				<li>I learn best and get the most done with help.  Help from humans. Humans who can teach, offer advice, or just listen to me talk it out.</li>
+			</ul>
+			<p style="color: #000000;">Up next: Coding School Applications</p>
+			<p style="color: #000000;">Shameless plea for help: <strong><a style="color: #555555;" href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+			<p style="color: #000000;"><strong>Footnotes:</strong></p>
+			<p style="color: #000000;"><em>* fermented foods, utilitarian furniture, presentations, connections, laughter, beats, dinner parties, scavenger hunts, canvases, bad jokes, and what we will broadly refer to as “art.”</em></p>
+			<p style="color: #000000;"><em>** This may be indicative of a psychological defect, but damn it, PS3 puzzle games are THE BEST and in short supply.</em></p>
+<div class="close">Close</div>		</div>
+
+		<!-- ***************  4 ***************************** -->
+		<div class="blogPost">
+			<img class="titleImg" src="blogImgs/nest.jpg" alt="nest">
+			<i class="fa fa-sort-asc"></i><i class="fa fa-sort-desc"></i><h3 class="blogTitle">Welcome!  The Beginning of the End</h3><em><h4>April 2014</h4></em>
+		</div>
+		<div class="invisible content">
+
+			<p>…and sometimes you get kicked out of the nest.</p>
+			<p style="color: #000000;">At the mark of my 9-year work anniversary I’m shutting down the California office of the software company where I’m second in command (the Spock to Captain Kirk, the Riker to Picard).  While I’m busting my butt to set up find-a-job presentations and support-groups for the 30 people i just had to lay-off, I’m also sorting out my next steps.</p>
+			<p style="color: #000000;">Sure, I’ve thought about leaving before.  Especially this past year when things got boring and I felt like I stopped learning/growing/helping.  But what next?  Manage people? love it.  Help people? yes. Project managing? yeah, maybe.  Customer service?  No more.  Operations? FML.  Where are the awesome jobs where you get to play video games all day, lift weights, and play therapist without a degree?</p>
+			<p style="color: #000000;">After 9 years of relentless, round-the-clock, service support, the last thing I wanted to do was find another home in Operations.  So here we go:</p>
+
+			<ul style="color: #000000;">
+				<li>I’m taking a gamble on myself.</li>
+				<li>I’m headed to coding school this Fall.</li>
+				<li>I’m poised to conquer the world.  Come with me - this will be fun!</li>
+			</ul>
+			<p style="color: #000000;">Shameless plea for help: <strong><a style="color: #555555;" href="https://www.youcaring.com/SchoolForCJ" target="_blank">https://www.youcaring.com/SchoolForCJ</a></strong></p>
+			<div class="close">Close</div>
+		</div>
+		
+
+
+
+
+
+		<script type="text/javascript" src="blog.js"></script>
+	</body>
+	</html>

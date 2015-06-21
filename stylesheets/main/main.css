@@ -1,0 +1,339 @@
+* {
+	font-family: sans-serif;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+body {
+	width: 100%;
+	background-image: url("../imgs/coffee.jpg");
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+
+
+/* All section headers */
+.textbox h1 {
+	margin-top: 1em; 
+	text-align: center;
+	font-family: coldcoffee;
+	font-size: 1.5em;
+	color: white;
+	background-color: black;
+	z-index: 99;
+}
+.textbox h1 span {
+	font-family: coldcoffee;
+	font-size: 1.25em;
+}
+
+#subtext span {
+	font-family: coldcoffee;
+	font-size: 1.25em;
+}
+
+/*This is for the portfolio & blog H2s*/
+/**********   NAV **************/
+#navDiv {
+	width: inherit;
+	position: fixed;
+	z-index:9999;
+	background-color: black;
+	opacity: .8;
+	margin-top: -1em;
+}
+#navDiv a {
+	text-decoration: none;
+	color: white;
+	font-family: coldcoffee;
+	font-size: .5em;
+
+}
+#navUl {
+	width: 100%;
+	list-style: none;
+}
+#navUl li {
+	float: right; 
+	margin-left: 1em;
+}
+#lastNav {
+	margin-right: 3em;
+}
+
+/**********   HEADER **************/
+
+#header {
+	margin-top: 1em;
+	width: 100%;
+}
+#header img {
+	margin: 5% 25%;
+	width: 45%;
+}
+
+/**********   ABOUT / CONTACT  **************/
+
+#contactAboutContainer {
+	margin-top: -6em;
+	width: 80%;
+	margin: auto;
+}
+#contact {
+	background-color: white;
+	opacity: 0.8;
+	width:40%;
+	border-radius: 10%;
+	overflow: hidden;
+	margin-top: 5%;
+	display: inline-block;
+	border: 1px solid black;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+#hi {
+	font-size: .75em;
+	font-family: coldcoffee;
+	padding: .75em 0;
+	margin-top: 1em; 
+	text-align: center;
+	color: white;
+	background-color: black;
+	width: 100%;
+}	
+#iconUl {
+	list-style: none;
+}
+#headshot {
+	display: inline-block;
+	float: left;
+	width: 25%;
+	margin-left: 5%;
+}
+#headshot img {
+	display: inline-block;
+	width: 100%;
+	border-radius: 2%;
+}
+#links {
+	display: inline-block;
+	float: left;
+	width: 65%;
+}
+#iconUl li p{
+	display: inline-block;
+	margin: 1em 2em 0 1em;
+	color: black;
+	font-size: 1em;
+}
+
+#iconUl i {
+	margin: 0 0 0 -1em;
+	color: black;
+}
+
+#about, #contact {
+	display: inline-block;
+}
+#about {
+	display: inline-block;
+	float: right;
+	width: 50%;
+	border-radius: 10%;
+	margin-bottom: 5%;
+	border: 1px solid black;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/drill.png');
+	background-size: 100%;
+
+	background-position: center;
+
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+
+/*This part is for the about box not the H2s */
+#about p {
+	text-align: center;
+	margin: 2em 2em 6em 2em;
+	font-size: 1em;
+	color: white;
+}
+
+
+/**********   PORTFOLIO  **************/
+#portfolio {
+	clear:both;
+	background-color: white;
+	opacity: 0.8;
+	margin-bottom: 5%;
+	padding-top: 2.5%;
+	border: 1px solid black;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+.thumbs {
+	display: block;
+	width: inherit;
+	margin: 1em 0 1em 1em;
+}
+
+.thumb {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	z-index: 0;
+
+	border-radius: 10%;
+	overflow: hidden;
+	float: left;
+	margin: 1em 2em 1em 1em;
+
+
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111;  
+
+}
+
+.thumb p {
+	position: absolute;
+	z-index: 100;
+	top: 20%;
+	left: 2.5%;
+	font-size: .8em;
+	color: black;
+	border: 1px solid white;
+	background-color: white;
+	width: 95%;
+	text-align: center;
+
+}
+
+.zoom img {
+	background: rgba(0, 0, 0, 0.5);
+	position: relative; 
+
+	height: 100%;
+	width: 100%;
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.zoom img:hover {
+	width: 150%;
+	height: 150%;
+}
+
+.descrip {
+	width: 100px;
+	font-size: .9em;
+	text-align: center;
+	vertical-align: top;
+	padding: 0 1em 0 1em;
+
+}
+
+/**********   RESUME  **************/
+
+
+
+#resume {
+	clear: both;
+	background-color: white;
+	opacity: 0.8;
+	width: 80%;
+	margin:auto;
+	border-radius: 10%;
+	margin-bottom: 5%;
+	overflow: hidden;
+	border: 1px solid black;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+
+}
+
+#resume img {
+	width: 95%;
+	margin-left: 2.5%;
+}
+
+/**********   BLOG  **************/
+
+#blog {
+	width: 100%;
+	background-color: white;
+	opacity: 0.8;
+	margin-bottom: 15%;
+	border: 1px solid black;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+}
+#blog table {
+	margin: 1em auto 4em auto;
+	width: 60%;
+}
+#blog th p {
+	font-size: .75em;
+	font-family: coldcoffee;
+	padding: .5em 0 -1em 0;
+}
+.blogTitle {
+	display: inline-block;
+	float: left;
+	width: 45%;
+	margin-right: 3%;
+	vertical-align: middle;
+	margin: 1em;
+}
+.blogThumb img {
+	float: left;
+	width: 125px;
+	margin-left: 3%;
+	display: inline-block;
+	border-radius: 15%;
+
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111; 
+
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+.blogThumb img:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+.blogCol {
+	width: 45%;
+}
+#blog a {
+	text-decoration: none;
+	color: black;
+}
+#blog h1:hover {
+	background-color: gray;
+	color: blue;
+}
+#blog th:hover p {
+	color: blue;
+}
+#blog td:hover p {
+	color: blue;
+}
+
+
+
