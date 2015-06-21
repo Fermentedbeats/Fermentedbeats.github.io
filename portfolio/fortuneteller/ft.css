@@ -83,9 +83,9 @@ body {
 .sidebar {
 	display: inline-block;
 	float: right;
-	width: 15%;
+	width: 20%;
 	border: solid 1px gold;
-	margin: 10% 10% 0 0;
+	margin: 2.5% 5% 0 0;
 	border-radius: 15%;
 	font-family: coldcoffee;
 	color: white;
