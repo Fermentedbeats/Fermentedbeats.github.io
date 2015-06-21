@@ -161,7 +161,7 @@ body {
 #about p {
 	text-align: center;
 	margin: 2em 2em 6em 2em;
-	font-size: 1em;
+	font-size: 1.2em;
 	color: white;
 }
 
@@ -334,21 +334,21 @@ body {
 #blog td:hover p {
 	color: blue;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 770px) {
     #contactAboutContainer, #about, #contact {
         display: block;
         width: 80%;
         margin-bottom: 2%;
         float: left;
     }
-    body {font-size: 60%}
+    body {font-size: 100%}
 }
 @media screen and (max-width: 1115px) {
-	    body {font-size: 75%}
+	    body {font-size: 80%}
 
 }
 @media screen and (max-width: 900px) {
-	    body {font-size: 60%}
+	    body {font-size: 70%}
 
 }
 
