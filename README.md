@@ -1,4 +1,4 @@
 Fermentedbeats.github.io
 ========================
 
-DBC Phase 0 github site
+Portfolio & Blog of CJ Johnson
