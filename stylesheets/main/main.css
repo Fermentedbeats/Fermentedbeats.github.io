@@ -294,7 +294,8 @@ body {
 .blogThumb img {
 	float: left;
 	width: 125px;
-	margin-left: 3%;
+	height: 100px;
+	margin: 1% 0 3% 0;
 	display: inline-block;
 	border-radius: 15%;
 
