@@ -142,6 +142,10 @@ h3 {
  .invisible {
  	display: none;
  }
+ .visible {
+ 	height: 80vh;
+ 	overflow: scroll;
+ }
 
  .close {
  	float: right;
