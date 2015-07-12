@@ -257,21 +257,21 @@ function clearDetails() {
 // keydown functions
 $(document).keydown(function(e) {
 
-// left & right vars
-var selected = $(".selected");
-var previous = selected.prev();
-var next = selected.next();
-// up & down vars
-var firstImg = $('.movieImg').first();
-var lastImg = $('.movieImg').last();
-var parent = selected.parent().parent();
-var nextParent = parent.next();
-var previousParent = parent.prev();
-var down = nextParent.children(':first-child').children(':first-child');
-var up = previousParent.children(':first-child').children(':first-child');
-var firstImgOfLastDiv = parent.siblings().last().children(':first-child').children(':first-child');
-var firstImgOfFirstDiv = parent.siblings().first().children(':first-child').children(':first-child');
-// title menu vars
+    // left & right vars
+    var selected = $(".selected");
+    var previous = selected.prev();
+    var next = selected.next();
+    // up & down vars
+    var firstImg = $('.movieImg').first();
+    var lastImg = $('.movieImg').last();
+    var parent = selected.parent().parent();
+    var nextParent = parent.next();
+    var previousParent = parent.prev();
+    var down = nextParent.children(':first-child').children(':first-child');
+    var up = previousParent.children(':first-child').children(':first-child');
+    var firstImgOfLastDiv = parent.siblings().last().children(':first-child').children(':first-child');
+    var firstImgOfFirstDiv = parent.siblings().first().children(':first-child').children(':first-child');
+    // title menu vars
     // left & right
     var titleParent = selected.parent().parent();
     // up & down
@@ -281,17 +281,17 @@ var firstImgOfFirstDiv = parent.siblings().first().children(':first-child').chil
     var firstLastParent = firstImgOfLastDiv.parent().parent()
     // console.log(firstFirstParent);
 
-// nav menu vars
-var navMenus = $('.navMenu');
-var selectedNavMenu = $('.selectedNavMenu');
-var prevMenu = selectedNavMenu.prev();
-// movie obj for video load, history, favorite & watchlist
-var movieTitle = selected.attr('id');
-var findMovieObj = table.map(function(x) {return x.title;}).indexOf(movieTitle);
-var movieObj = table[findMovieObj];
-
-// KEY DOWN ASSIGNMENT
-switch(e.which) {
+    // nav menu vars
+    var navMenus = $('.navMenu');
+    var selectedNavMenu = $('.selectedNavMenu');
+    var prevMenu = selectedNavMenu.prev();
+    // movie obj for video load, history, favorite & watchlist
+    var movieTitle = selected.attr('id');
+    var findMovieObj = table.map(function(x) {return x.title;}).indexOf(movieTitle);
+    var movieObj = table[findMovieObj];
+    
+    // KEY DOWN ASSIGNMENT
+    switch(e.which) {
             case 38: // up
             if (up.length) {
                 up.addClass("selected");
@@ -406,7 +406,7 @@ switch(e.which) {
 function keyDownMessage(key, movieObj){
     $('#message').html(movieObj.title + ' added to ' + key);
     $('#message').show();
-    $('#message').fadeOut(2000);
+    $('#message').fadeOut(1000);
 
 }
 
