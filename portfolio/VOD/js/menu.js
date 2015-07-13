@@ -174,7 +174,7 @@ function displayEmptyTitleMenu(category) {
      var text = document.getElementsByClassName('detailsText')[0];
      text.innerHTML = "<span id='detailsTitle'><strong>Coming Soon</strong></span><br><br>" + insertStars(10) + "<br><br>" + displayText;
      var img = document.createElement('img');
-     img.src = 'assets/boxCovers/coming_soon.png'
+     img.src = '../assets/boxCovers/coming_soon.png'
      document.getElementsByClassName('detailsImg')[0].appendChild(img);
 }
 
