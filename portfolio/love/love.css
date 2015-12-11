@@ -4,6 +4,12 @@
     background-image: url("img/squabturkey.png");
     background-repeat: repeat;
 }
+.bkgrd2 {
+	width: 100%;
+	height: 1200px;
+    background-image: url("img/pirate.png");
+    background-repeat: repeat;	
+}
 
 .panel {
 	width: 80%;
@@ -14,15 +20,23 @@
 	display: inline-block;
 }
 
-#img1 {
+#img1, #img2 {
 	padding: 3em;
+	display: inline-block;
+	float: left;
+	max-width: 40%;
+}
+
+p {
 	display: inline-block;
 	float: left;
 }
 
-.1  {
+.lovetext {
 	display: inline-block;
 	float: left;
+	width: 55%;
+
 }
 
 span {
@@ -33,7 +47,17 @@ span {
 
 }
 
+#next {
+	background-color: white;
+	display: inline-block;
+	float: left;
+	border-radius: 10%;
+	padding-top: .4em;
+	margin-left: 45%;
+	text-align: center;
 
+
+}
 * {
-border: 1px solid black;
+/*border: 1px solid black;*/
 }
